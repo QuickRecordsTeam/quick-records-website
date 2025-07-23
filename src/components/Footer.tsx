@@ -62,19 +62,22 @@ const Footer = () => {
               <h4>Features</h4>
               <ul>
                 <li>
-                  <a href="#">Web Design</a>
+                  <a href="#features">User Management</a>
                 </li>
                 <li>
-                  <a href="#">Web Development</a>
+                  <a href="#features">Income Management</a>
                 </li>
                 <li>
-                  <a href="#">Product Management</a>
+                  <a href="#features">Expenditure Management</a>
                 </li>
                 <li>
-                  <a href="#">Marketing</a>
+                  <a href="#features">User Contributions</a>
                 </li>
                 <li>
-                  <a href="#">Graphic Design</a>
+                  <a href="#features">Reports and Statistics</a>
+                </li>
+                <li>
+                  <a href="#features">Balance Sheets</a>
                 </li>
               </ul>
             </div>

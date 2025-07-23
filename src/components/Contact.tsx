@@ -20,7 +20,7 @@ const Contact = () => {
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <h3>Our Address</h3>
-                <p>2847 Rainbow Road, Springfield, IL 62701, USA</p>
+                <p>Buea, Southwest Region, Cameroon</p>
               </div>
             </div>
 
@@ -31,9 +31,9 @@ const Contact = () => {
                 </div>
                 <h3>Contact Number</h3>
                 <p>
-                  Mobile: +1 (555) 123-4567
+                  Mobile: +237 673-660-071
                   <br />
-                  Email: info@example.com
+                  Email: info@quickrecords.com
                 </p>
               </div>
             </div>
