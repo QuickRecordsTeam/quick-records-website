@@ -1,11 +1,13 @@
 import { Fragment, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Fragment>
       <Header />
+      <Footer />
     </Fragment>
   );
 }
