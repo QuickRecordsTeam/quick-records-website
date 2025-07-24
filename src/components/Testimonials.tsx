@@ -32,10 +32,7 @@ const Testimonials = () => {
       >
         <div className="container section-title" data-aos="fade-up">
           <h2>Testimonials</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
+          <p>Get Inspired by Our Clients' Success Stories</p>
         </div>
 
         <div className="container" data-aos="fade-up" data-aos-delay="100">

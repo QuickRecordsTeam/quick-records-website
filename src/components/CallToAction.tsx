@@ -26,11 +26,11 @@ const CallToAction = () => {
 
             <div className="col-lg-6" data-aos="fade-left" data-aos-delay="300">
               <div className="cta-content">
-                <h2>Transform Your Vision Into Reality Today</h2>
+                <h2>Elevant your Financial Management Journey Today</h2>
                 <p className="lead">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus
-                  leo.
+                  Say Goodbye to the Hassle of Manual Entry and Stressful
+                  Reports. Experience Effortless Management and Gain Confidence
+                  in Your Financial Insights!
                 </p>
 
                 <div className="cta-features">
@@ -40,7 +40,7 @@ const CallToAction = () => {
                     data-aos-delay="400"
                   >
                     <i className="bi bi-check-circle-fill"></i>
-                    <span>Lorem ipsum dolor sit amet consectetur</span>
+                    <span>Visual Financial Transactions and Statistics</span>
                   </div>
                   <div
                     className="feature-item"
@@ -48,7 +48,7 @@ const CallToAction = () => {
                     data-aos-delay="450"
                   >
                     <i className="bi bi-check-circle-fill"></i>
-                    <span>Praesent eget risus vitae massa</span>
+                    <span>On-demand Reports and Balance Sheets</span>
                   </div>
                   <div
                     className="feature-item"
@@ -56,16 +56,13 @@ const CallToAction = () => {
                     data-aos-delay="500"
                   >
                     <i className="bi bi-check-circle-fill"></i>
-                    <span>Aenean pretium nisi vel pulvinar</span>
+                    <span>A 30-day free trial</span>
                   </div>
                 </div>
 
                 <div className="cta-action mt-5">
-                  <a href="#" className="btn btn-primary btn-lg me-3">
+                  <a href="#contact" className="btn btn-primary btn-lg me-3">
                     Get Started
-                  </a>
-                  <a href="#" className="btn btn-outline-primary btn-lg">
-                    Learn More
                   </a>
                 </div>
               </div>

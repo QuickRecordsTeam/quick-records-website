@@ -6,7 +6,7 @@ const Footer = () => {
       <footer id="footer" className="footer light-background">
         <div className="container footer-top">
           <div className=" gy-4 d-flex justify-content-between">
-            <div className=" footer-about">
+            <div className="footer-about">
               <a href="/" className="logo d-flex align-items-center">
                 <span className="sitename">
                   <span className="app-name-one">

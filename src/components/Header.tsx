@@ -29,13 +29,13 @@ const Header = () => {
                 </a>
               </li>
               <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
                 <a href="#features">Features</a>
               </li>
               <li>
-                <a href="#pricing">Pricing</a>
-              </li>
-              <li>
-                <a href="#team">Team</a>
+                <a href="#faq">FAQs</a>
               </li>
               <li>
                 <a href="#contact">Contact</a>
