@@ -45,7 +45,7 @@ const Header = () => {
           </nav>
 
           <a className="btn-getstarted" href="#contact">
-            Book Demo
+            Live Demo
           </a>
         </div>
       </header>

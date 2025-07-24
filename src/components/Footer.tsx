@@ -5,11 +5,12 @@ const Footer = () => {
     <Fragment>
       <footer id="footer" className="footer light-background">
         <div className="container footer-top">
-          <div className="row gy-4">
-            <div className="col-lg-4 col-md-6 footer-about">
+          <div className=" gy-4 d-flex justify-content-between">
+            <div className=" footer-about">
               <a href="/" className="logo d-flex align-items-center">
                 <span className="sitename">
                   <span className="app-name-one">
+                    <img src="/img/logo.png" alt="web application logo"></img>
                     Quick<span className="app-name-two">Records</span>
                   </span>
                 </span>
@@ -40,44 +41,23 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-3 footer-links">
+            <div className=" footer-links ">
               <h4>Useful Links</h4>
               <ul>
                 <li>
                   <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#about">About us</a>
+                  <a href="#about">About</a>
                 </li>
                 <li>
                   <a href="#">Features</a>
                 </li>
                 <li>
+                  <a href="#pricing">Pricing</a>
+                </li>
+                <li>
                   <a href="#">Terms of service</a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-lg-4 col-md-3 footer-links">
-              <h4>Features</h4>
-              <ul>
-                <li>
-                  <a href="#features">User Management</a>
-                </li>
-                <li>
-                  <a href="#features">Income Management</a>
-                </li>
-                <li>
-                  <a href="#features">Expenditure Management</a>
-                </li>
-                <li>
-                  <a href="#features">User Contributions</a>
-                </li>
-                <li>
-                  <a href="#features">Reports and Statistics</a>
-                </li>
-                <li>
-                  <a href="#features">Balance Sheets</a>
                 </li>
               </ul>
             </div>
