@@ -15,7 +15,7 @@ function App() {
     <Fragment>
       <Header />
       <Hero />
-      <About />
+      {/* <About /> */}
       <Features />
       <CallToAction />
 
