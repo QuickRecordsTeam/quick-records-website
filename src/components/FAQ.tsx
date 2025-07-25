@@ -88,10 +88,9 @@ const FAQ = () => {
                 <div className="card-content">
                   <h3>Still Have Questions?</h3>
                   <p>
-                    Vestibulum ante ipsum primis in faucibus orci luctus et
-                    ultrices posuere cubilia Curae; Donec velit neque, auctor
-                    sit amet aliquam vel, ullamcorper sit amet ligula.
-                    Vestibulum ac diam sit amet quam vehicula elementum.
+                    Explore our FAQ section to find quick solutions to common
+                    inquiries, or feel free to reach out if you need further
+                    assistance
                   </p>
                   <div className="contact-options">
                     <a
