@@ -12,14 +12,15 @@ const FAQ = () => {
     {
       id: 1,
       status: true,
-      title: "Vivamus suscipit tortor eget felis porttitor volutpat?",
+      title:
+        "What Problem does this solution solve in an organisation or group?",
       description:
         "Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.",
     },
     {
       id: 2,
       status: false,
-      title: "Curabitur aliquet quam id dui posuere blandit?",
+      title: "How does it contribute to the growth of my organisation?",
       description:
         "Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.",
     },
