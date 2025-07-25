@@ -16,7 +16,7 @@ const CallToAction = () => {
             >
               <div className="cta-image-wrapper">
                 <img
-                  src="/img/cta/cta-4.webp"
+                  src="/img/cta/call-to-action-img.jpg"
                   alt="Call to Action"
                   className="img-fluid rounded-4"
                 ></img>
