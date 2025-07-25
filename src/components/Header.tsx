@@ -8,18 +8,18 @@ const Header = () => {
   const [currentActiveLink, setCurrentActiveLink] = useState<NavLink>({
     id: 1,
     title: "Home",
-    href: "#hero",
+    href: "#about",
   });
   const [navLinks, setNavLinks] = useState<NavLink[]>([
     {
       id: 1,
       title: "Home",
-      href: "#hero",
+      href: "#about",
     },
     {
       id: 2,
       title: "Features",
-      href: "#feature",
+      href: "#features",
     },
     {
       id: 3,
