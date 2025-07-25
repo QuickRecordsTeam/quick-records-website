@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useRef, useState } from "react";
 interface NavLink {
   id: number;
   title: string;
@@ -32,6 +32,26 @@ const Header = () => {
       href: "#contact",
     },
   ]);
+
+  const navRef = useRef<HTMLAnchorElement>(null);
+  const demoBtnRef = useRef<HTMLAnchorElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
+
+  const showMobileMenu = () => {
+    navRef.current?.classList.add("d-none");
+  };
+
+  const showMobileMenuBars = () => {
+    navRef.current?.classList.add("d-block");
+    navRef.current?.classList.remove("d-xl-none");
+    navRef.current?.classList.remove("d-none");
+  };
+  const handleActiveNavLink = (e: NavLink) => {
+    setCurrentActiveLink(e);
+    buttonRef.current?.click();
+    const currentLocation = window.location.origin.replaceAll("#", "");
+    window.location.href = `${currentLocation}${e.href}`;
+  };
   return (
     <Fragment>
       <header
@@ -40,10 +60,9 @@ const Header = () => {
       >
         <div className="container position-relative d-flex align-items-center justify-content-between">
           <a
-            href="index.html"
+            href="/"
             className="logo d-flex align-items-center me-auto me-xl-0"
           >
-            {/* Uncomment the line below if you also wish to use an image logo   */}
             <img src="/img/logo.png" alt="web application logo"></img>
             <h1>
               <span className="app-name-one">
@@ -66,12 +85,66 @@ const Header = () => {
                 </li>
               ))}
             </ul>
-            <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            <i
+              className="mobile-nav-toggle d-xl-none bi bi-list"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+              onClick={() => showMobileMenu()}
+              ref={navRef}
+            ></i>
           </nav>
 
-          <a className="btn-getstarted" href="#contact">
+          <a className="btn-getstarted" href="#contact" ref={demoBtnRef}>
             Live Demo
           </a>
+        </div>
+
+        <div
+          className="offcanvas offcanvas-end"
+          tabIndex={-1}
+          id="offcanvasRight"
+          aria-labelledby="offcanvasRightLabel"
+        >
+          <div className="offcanvas-header">
+            <span>
+              <a
+                href="/"
+                className="logo d-flex align-items-center me-auto me-xl-0"
+              >
+                <img src="/img/logo.png" alt="web application logo"></img>
+                <span className="app-name-one">
+                  Quick<span className="app-name-two">Records</span>
+                </span>
+              </a>
+            </span>
+            <button
+              type="button"
+              className="btn-close text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+              ref={buttonRef}
+              onClick={() => showMobileMenuBars()}
+            ></button>
+          </div>
+          <div className="offcanvas-body">
+            <nav id="navmenu" className="navmenu-mobile">
+              <ul>
+                {navLinks.map((e) => (
+                  <li key={e.id}>
+                    <a
+                      href={e.href}
+                      data-bs-dismiss="offcanvas"
+                      className={e.id == currentActiveLink.id ? "active" : ""}
+                      onClick={() => handleActiveNavLink(e)}
+                    >
+                      {e.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </div>
         </div>
       </header>
     </Fragment>
@@ -79,6 +152,3 @@ const Header = () => {
 };
 
 export default Header;
-function useRef<T>(arg0: null): any {
-  throw new Error("Function not implemented.");
-}
