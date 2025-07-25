@@ -11,36 +11,17 @@ const About = () => {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <p className="who-we-are">Who We Are</p>
+              <p className="who-we-are">About</p>
               <h3>Unleashing Potential with Creative Strategy</h3>
               <p className="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                In today’s fast-paced world, efficient record management is
+                crucial. QuickRecords eliminates the hassle of traditional
+                record-keeping methods, allowing you to focus on maximizing
+                productivity.
               </p>
-              <ul>
-                <li>
-                  <i className="bi bi-check-circle"></i>{" "}
-                  <span>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </span>
-                </li>
-                <li>
-                  <i className="bi bi-check-circle"></i>{" "}
-                  <span>
-                    Duis aute irure dolor in reprehenderit in voluptate velit.
-                  </span>
-                </li>
-                <li>
-                  <i className="bi bi-check-circle"></i>{" "}
-                  <span>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate trideta
-                    storacalaperda mastiro dolore eu fugiat nulla pariatur.
-                  </span>
-                </li>
-              </ul>
+
               <a href="#" className="read-more">
-                <span>Read More</span>
+                <span>Get Started</span>
                 <i className="bi bi-arrow-right"></i>
               </a>
             </div>

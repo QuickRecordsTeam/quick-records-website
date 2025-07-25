@@ -12,25 +12,19 @@ const Hero = () => {
                   <div className="icon-circle me-2">
                     <i className="bi bi-bell"></i>
                   </div>
-                  <span className="badge-text me-3">Innovative Solutions</span>
+                  <span className="badge-text me-3">Innovative Technology</span>
                 </div>
               </div>
 
               <h1 className="hero-title mb-4">
-                Accelerating business growth through innovative technology
+                Streamlining Finance Management with Innovative Technology
               </h1>
 
               <p className="hero-description mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Maecenas varius tortor nibh, sit amet tempor nibh finibus et.
-                Aenean eu enim justo.
+                QuickRecords is a user-friendly and collaborative SaaS that
+                streamlines record management of finances, allowing you to focus
+                on maximizing productivity.
               </p>
-
-              <div className="cta-wrapper">
-                <a href="#" className="btn btn-primary">
-                  Discover More
-                </a>
-              </div>
             </div>
 
             <div className="col-lg-6">
@@ -53,13 +47,15 @@ const Hero = () => {
             >
               <div className="feature-box">
                 <div className="feature-icon me-sm-4 mb-3 mb-sm-0">
-                  <i className="bi bi-gear"></i>
+                  <i className="bi bi-cash"></i>
                 </div>
                 <div className="feature-content">
-                  <h3 className="feature-title">Rapid Deployment</h3>
+                  <h3 className="feature-title">
+                    Intuitive Transaction Management
+                  </h3>
                   <p className="feature-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    elit tellus, luctus nec ullamcorper mattis.
+                    Easily record income, expenditures, contributions, and
+                    savings with an efficient workflow.
                   </p>
                 </div>
               </div>
@@ -72,13 +68,13 @@ const Hero = () => {
             >
               <div className="feature-box">
                 <div className="feature-icon me-sm-4 mb-3 mb-sm-0">
-                  <i className="bi bi-window"></i>
+                  <i className="bi bi-file-earmark-text"></i>
                 </div>
                 <div className="feature-content">
-                  <h3 className="feature-title">Advanced Security</h3>
+                  <h3 className="feature-title">Report Generation</h3>
                   <p className="feature-text">
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    Generate on-demand Activity, Quarterly, and Yearly reports
+                    to save you time.
                   </p>
                 </div>
               </div>
@@ -87,13 +83,12 @@ const Hero = () => {
             <div className="col-lg-4" data-aos="fade-up" data-aos-delay="400">
               <div className="feature-box">
                 <div className="feature-icon me-sm-4 mb-3 mb-sm-0">
-                  <i className="bi bi-headset"></i>
+                  <i className="bi bi-graph-up"></i>
                 </div>
                 <div className="feature-content">
-                  <h3 className="feature-title">Dedicated Support</h3>
+                  <h3 className="feature-title"> Analytics Dashboard</h3>
                   <p className="feature-text">
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Gain insights into your records to make informed decisions.
                   </p>
                 </div>
               </div>

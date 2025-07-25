@@ -1,6 +1,37 @@
-import React, { Fragment } from "react";
-
+import React, { Fragment, useState } from "react";
+interface NavLink {
+  id: number;
+  title: string;
+  href: string;
+}
 const Header = () => {
+  const [currentActiveLink, setCurrentActiveLink] = useState<NavLink>({
+    id: 1,
+    title: "Home",
+    href: "#hero",
+  });
+  const [navLinks, setNavLinks] = useState<NavLink[]>([
+    {
+      id: 1,
+      title: "Home",
+      href: "#hero",
+    },
+    {
+      id: 2,
+      title: "Features",
+      href: "#feature",
+    },
+    {
+      id: 3,
+      title: "FAQs",
+      href: "#faq",
+    },
+    {
+      id: 4,
+      title: "Contact",
+      href: "#contact",
+    },
+  ]);
   return (
     <Fragment>
       <header
@@ -23,29 +54,23 @@ const Header = () => {
 
           <nav id="navmenu" className="navmenu">
             <ul>
-              <li>
-                <a href="#hero" className="active">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#features">Features</a>
-              </li>
-              <li>
-                <a href="#pricing">Pricing</a>
-              </li>
-              <li>
-                <a href="#team">Team</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
+              {navLinks.map((e) => (
+                <li key={e.id}>
+                  <a
+                    href={e.href}
+                    className={e.id == currentActiveLink.id ? "active" : ""}
+                    onClick={() => setCurrentActiveLink(e)}
+                  >
+                    {e.title}
+                  </a>
+                </li>
+              ))}
             </ul>
             <i className="mobile-nav-toggle d-xl-none bi bi-list"></i>
           </nav>
 
           <a className="btn-getstarted" href="#contact">
-            Book Demo
+            Live Demo
           </a>
         </div>
       </header>
@@ -54,3 +79,6 @@ const Header = () => {
 };
 
 export default Header;
+function useRef<T>(arg0: null): any {
+  throw new Error("Function not implemented.");
+}

@@ -47,6 +47,33 @@ const FAQ = () => {
 
     setFaqs(originalFaq);
   };
+
+  const handleSendEmail = () => {
+    const recipient = "info@quickrecords.com";
+    const subject = "Inquiry about the QuickRecords Platform";
+    const body = "Please provide the body of your mail";
+
+    const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(body)}`;
+
+    window.location.href = mailtoLink;
+  };
+
+  const handlerSendWhatsAppMsg = () => {
+    const phoneNumber = "+237673660071";
+    const message = "I want to learn more about the QuickRecords platform";
+    const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(whatsappURL, "_blank");
+  };
+
+  const handleMakeCall = () => {
+    const phoneNumber = "+237673660071";
+    const telURL = `tel:${phoneNumber}`;
+    window.location.href = telURL;
+  };
   return (
     <Fragment>
       <section id="faq" className="faq section">
@@ -66,15 +93,24 @@ const FAQ = () => {
                     Vestibulum ac diam sit amet quam vehicula elementum.
                   </p>
                   <div className="contact-options">
-                    <a href="#" className="contact-option">
+                    <a
+                      className="contact-option"
+                      onClick={() => handleSendEmail()}
+                    >
                       <i className="bi bi-envelope"></i>
                       <span>Email Support</span>
                     </a>
-                    <a href="#" className="contact-option">
+                    <a
+                      className="contact-option"
+                      onClick={() => handlerSendWhatsAppMsg()}
+                    >
                       <i className="bi bi-whatsapp"></i>
                       <span>WhatsApp</span>
                     </a>
-                    <a href="#" className="contact-option">
+                    <a
+                      className="contact-option"
+                      onClick={() => handleMakeCall()}
+                    >
                       <i className="bi bi-telephone"></i>
                       <span>Call Us</span>
                     </a>

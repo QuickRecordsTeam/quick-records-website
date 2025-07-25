@@ -7,8 +7,9 @@ const Features = () => {
         <div className="container section-title" data-aos="fade-up">
           <h2>Features</h2>
           <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+            Unlock the Full Potential of Our Product: Discover Key Features
+            Designed to Enhance Efficiency, Boost Productivity, and Simplify
+            Your Workflow!
           </p>
         </div>
 
@@ -21,15 +22,14 @@ const Features = () => {
             >
               <div className="service-item">
                 <div className="service-icon">
-                  <i className="bi bi-code-slash"></i>
+                  <i className="bi bi-people"></i>
                 </div>
                 <div className="service-content">
-                  <h3>User Maanagement</h3>
+                  <h3>User Management</h3>
                   <p>
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                    sem. Nulla quis lorem ut libero malesuada feugiat. Curabitur
-                    non nulla sit amet nisl tempus convallis. Lorem ipsum dolor
-                    sit amet, consectetur adipiscing elit.
+                    We offer a centralized platform to easily manage all members
+                    of your organization or group, tracking their enrollment and
+                    registration status.
                   </p>
                 </div>
               </div>
@@ -38,15 +38,14 @@ const Features = () => {
             <div className="col-md-6" data-aos="fade-left" data-aos-delay="100">
               <div className="service-item">
                 <div className="service-icon">
-                  <i className="bi bi-phone-fill"></i>
+                  <i className="bi bi-currency-dollar"></i>
                 </div>
                 <div className="service-content">
                   <h3>Income Management</h3>
                   <p>
-                    Praesent sapien massa, convallis a pellentesque nec, egestas
-                    non nisi. Vivamus magna justo, lacinia eget consectetur sed.
-                    Quisque velit nisi, pretium ut lacinia in, elementum id
-                    enim. Donec rutrum congue leo eget malesuada.
+                    We offer an efficient solution for managing income across
+                    various activities and types, featuring a user-friendly
+                    interface for data entry and visualization.
                   </p>
                 </div>
               </div>
@@ -59,15 +58,15 @@ const Features = () => {
             >
               <div className="service-item">
                 <div className="service-icon">
-                  <i className="bi bi-palette2"></i>
+                  <i className="bi bi-currency-dollar"></i>
                 </div>
                 <div className="service-content">
-                  <h3>Expenditure Management</h3>
+                  <h3>Expenditures Management</h3>
                   <p>
-                    Pellentesque in ipsum id orci porta dapibus. Proin eget
-                    tortor risus. Vivamus suscipit tortor eget felis porttitor
-                    volutpat. Vestibulum ac diam sit amet quam vehicula
-                    elementum sed sit amet dui.
+                    Struggling to track your expenses? Our Expenditure module
+                    offers a seamless solution to monitor spending for each
+                    activity, providing clear visualizations of how your income
+                    is allocated
                   </p>
                 </div>
               </div>
@@ -76,15 +75,15 @@ const Features = () => {
             <div className="col-md-6" data-aos="fade-left" data-aos-delay="200">
               <div className="service-item">
                 <div className="service-icon">
-                  <i className="bi bi-bar-chart-line"></i>
+                  <i className="bi bi-heart"></i>
                 </div>
                 <div className="service-content">
-                  <h3>User Contributions</h3>
+                  <h3>Contributions</h3>
                   <p>
-                    Donec rutrum congue leo eget malesuada. Mauris blandit
-                    aliquet elit, eget tincidunt nibh pulvinar a. Nulla
-                    porttitor accumsan tincidunt. Curabitur aliquet quam id dui
-                    posuere blandit.
+                    Let us take the stress out of recording member contributions
+                    for various activities. Our contribution module automates
+                    this process, offering a user-friendly and collaborative
+                    solution, complete with on-demand receipts and reports.
                   </p>
                 </div>
               </div>
@@ -97,15 +96,16 @@ const Features = () => {
             >
               <div className="service-item">
                 <div className="service-icon">
-                  <i className="bi bi-cloud-check"></i>
+                  <i className="bi bi-graph-up"></i>
                 </div>
                 <div className="service-content">
                   <h3>Reports and Statistics</h3>
                   <p>
-                    Curabitur aliquet quam id dui posuere blandit. Sed porttitor
-                    lectus nibh. Vivamus magna justo, lacinia eget consectetur
-                    sed, convallis at tellus. Nulla quis lorem ut libero
-                    malesuada feugiat.
+                    Eliminate the stress of manual report generation with Excel.
+                    Our Reports and Statistics module allows you to create
+                    on-demand reports by activity, quarter, or year, and
+                    visualize your organization's financial status monthly,
+                    empowering informed decision-making.
                   </p>
                 </div>
               </div>
@@ -114,15 +114,17 @@ const Features = () => {
             <div className="col-md-6" data-aos="fade-left" data-aos-delay="300">
               <div className="service-item">
                 <div className="service-icon">
-                  <i className="bi bi-shield-lock"></i>
+                  <i className="bi bi-file-earmark-text"></i>
                 </div>
                 <div className="service-content">
                   <h3>Balance Sheets</h3>
                   <p>
-                    Vestibulum ac diam sit amet quam vehicula elementum sed sit
-                    amet dui. Donec sollicitudin molestie malesuada. Curabitur
-                    arcu erat, accumsan id imperdiet et. Proin eget tortor
-                    risus.
+                    Our balance sheets offer real-time insights into your
+                    organization's financial status, including member
+                    contributions, balances, expected income, and expenses. This
+                    allows you to forecast your financial position at any
+                    moment, enabling effective planning for future projects and
+                    finances
                   </p>
                 </div>
               </div>

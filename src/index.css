@@ -156,7 +156,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 70px;
+  max-height: 50px;
   margin-right: 8px;
 }
 
@@ -474,7 +474,7 @@ h6 {
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
+  max-height: 36px;
   margin-right: 6px;
 }
 
@@ -2030,6 +2030,7 @@ section,
 .faq .faq-contact-card .contact-options .contact-option:hover {
   background-color: rgba(255, 255, 255, 0.25);
   transform: translateX(5px);
+  cursor: pointer;
 }
 
 .faq .faq-contact-card .contact-options .contact-option i {

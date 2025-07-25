@@ -6,10 +6,7 @@ const Pricing = () => {
       <section id="pricing" className="pricing section light-background">
         <div className="container section-title" data-aos="fade-up">
           <h2>Pricing</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
+          <p>Flexible Pricing for Every Budget—Find Your Perfect Fit!</p>
         </div>
 
         <div className="container" data-aos="fade-up" data-aos-delay="100">
