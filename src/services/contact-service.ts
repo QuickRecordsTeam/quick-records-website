@@ -3,6 +3,6 @@ import apiClient from "./api-client";
 
 export class ContactService {
     sendMessage(contact:ContactFormData){
-        return apiClient.post('/users', contact)
+        return apiClient.post('/public/quickrecords/send-inquiry-message', contact)
     }
 }
