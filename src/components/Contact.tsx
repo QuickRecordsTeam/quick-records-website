@@ -89,7 +89,7 @@ const Contact = () => {
                 <p>
                   Mobile: +237 673-660-071
                   <br />
-                  Email: info@quickrecords.com
+                  Email: quickrec93@gmail.com
                 </p>
               </div>
             </div>

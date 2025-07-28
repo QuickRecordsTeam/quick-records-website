@@ -27,24 +27,27 @@ const FAQ = () => {
     {
       id: 3,
       status: false,
-      title: "Sed porttitor lectus nibh ullamcorper sit amet?",
+      title: "How does the Product work?",
       description:
         "Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.",
     },
     {
       id: 4,
       status: false,
-      title: "Nulla quis lorem ut libero malesuada feugiat?",
+      title: "How is the pricing of the product?",
       description:
         "Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.",
     },
   ]);
 
   const toggleStatus = (faq: FrequentlyAskedQuestions) => {
-    const originalFaq = [...faqs];
-    originalFaq.map((e) => (e.status ? (e.status = false) : e));
+    console.log(faq);
+    // console.log(...faqs);
 
-    originalFaq.map((e) => (e.id == faq.id ? (e.status = true) : e));
+    const originalFaq = [...faqs];
+    originalFaq.map((e) => (e.id === faq.id ? (e.status = !e.status) : e));
+
+    originalFaq.map((e) => (e.id === faq.id ? (e.status = !e.status) : e));
 
     setFaqs(originalFaq);
   };
