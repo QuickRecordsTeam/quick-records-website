@@ -22,7 +22,7 @@ const Footer = () => {
                   <strong>Phone:</strong> <span>+237 673660071</span>
                 </p>
                 <p>
-                  <strong>Email:</strong> <span>info@quickrecords.com</span>
+                  <strong>Email:</strong> <span>quickrec93@gmail.com</span>
                 </p>
               </div>
               <div className="social-links d-flex mt-4">
@@ -32,10 +32,7 @@ const Footer = () => {
                 <a href="">
                   <i className="bi bi-facebook"></i>
                 </a>
-                <a href="">
-                  <i className="bi bi-instagram"></i>
-                </a>
-                <a href="">
+                <a href="https://www.linkedin.com/company/quickrecords/about">
                   <i className="bi bi-linkedin"></i>
                 </a>
               </div>
