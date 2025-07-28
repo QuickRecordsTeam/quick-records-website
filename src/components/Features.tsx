@@ -129,6 +129,46 @@ const Features = () => {
                 </div>
               </div>
             </div>
+
+            <div className="col-md-6" data-aos="fade-left" data-aos-delay="300">
+              <div className="service-item">
+                <div className="service-icon">
+                  <i className="bi bi-clipboard-check"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Logs and Tracability</h3>
+                  <p>
+                    Our software offers comprehensive logging for every action
+                    taken, along with clear identification of the user
+                    responsible for each action. This feature enhances
+                    accountability and transparency, making it easier to detect
+                    and prevent fraudulent activities. By ensuring a reliable
+                    audit trail, you can trust that your financial transactions
+                    are secure and monitored
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-md-6" data-aos="fade-left" data-aos-delay="300">
+              <div className="service-item">
+                <div className="service-icon">
+                  <i className="bi bi-shield-check"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Security and Secure Storage</h3>
+                  <p>
+                    Our system employs Role-Based Access Control (RBAC) to
+                    ensure that only authorized personnel can access sensitive
+                    data. Additionally, we implement data encryption mechanisms
+                    for secure transmission of information. Our data backup
+                    processes ensure that your information is recoverable in the
+                    event of an unexpected incident, guaranteeing a smooth
+                    workflow and providing peace of mind
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
