@@ -15,28 +15,45 @@ const FAQ = () => {
       title:
         "What Problem does this solution solve in an organisation or group?",
       description:
-        "Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.",
+        "QuickRecords addresses a variety of challenges, including the difficulty of managing financial transactions manually, especially when key personnel are unavailable. It also streamlines the manual generation of reports, reduces delays in presentation, and provides detailed financial statistics.",
     },
     {
       id: 2,
       status: false,
-      title: "How does it contribute to the growth of my organisation?",
+      title:
+        "How does it benefit or contribute to the growth of my organisation?",
       description:
-        "Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.",
+        "QuickRecords will save time, reduce errors, and enhance accuracy, accountability, and transparency while creating a comprehensive audit trail. The organization will gain a clear, data-driven understanding of member financial engagement, allowing it to identify trends, gain insights, and make informed financial planning decisions. Additionally, it will ensure continuity, prevent bottlenecks caused by the absenteeism of financial officers, and promote collaboration.",
     },
     {
       id: 3,
       status: false,
       title: "How does the Product work?",
       description:
-        "Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.",
+        "As a role-based software, QuickRecords is utilized by four key staff members: an Admin, a President, a Financial Secretary, and a Treasurer. To ensure complete security and controlled access, the Admin begins by configuring roles for collaborators and inviting them onboard. The current session (year) is set up to enable the Financial Secretary to record transactions, or the President can step in if the Financial Secretary is absent. When the Treasurer receives the collections, they can either approve or decline recorded transactions based on the transfer received and the reviewed records and reports. For more inquiries, please contact us or leave us a message.",
     },
     {
       id: 4,
       status: false,
       title: "How is the pricing of the product?",
       description:
-        "Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur aliquet quam id dui posuere blandit. Nulla porttitor accumsan tincidunt.",
+        "QuickRecords is software offered as a service to organizations or groups, providing a 30-day free trial. After the trial period, organizations or groups can subscribe for a monthly fee of 25,000 XAF. This fee covers the setup of their package, including all features, data migration, updates, and 24/7 support and maintenance.",
+    },
+    {
+      id: 5,
+      status: false,
+      title:
+        "Does the Software save money in an organisation's or group's bank account?",
+      description:
+        "No, the current version of this software does not interact with the organization's or group's bank accounts. It only records transaction details.",
+    },
+    {
+      id: 6,
+      status: false,
+      title:
+        "Does the Software support online transactions of money within the organisation?",
+      description:
+        "No, the current version of this software does not support online money transactions yet. However, users can issue money transactions directly to the organization's accounts. Once the Treasurer confirms the account credit, they can immediately or on-demand print a receipt for the transaction from the software.",
     },
   ]);
 
@@ -45,7 +62,7 @@ const FAQ = () => {
     // console.log(...faqs);
 
     const originalFaq = [...faqs];
-    originalFaq.map((e) => (e.id === faq.id ? (e.status = !e.status) : e));
+    originalFaq.map((e) => (e.status ? (e.status = !e.status) : e));
 
     originalFaq.map((e) => (e.id === faq.id ? (e.status = !e.status) : e));
 
