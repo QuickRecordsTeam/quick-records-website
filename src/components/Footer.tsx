@@ -16,7 +16,7 @@ const Footer = () => {
                 </span>
               </a>
               <div className="footer-contact pt-3">
-                <p>Buea, Southwest Region</p>
+                <p>P.O. Box 280 Buea, Southwest Region</p>
                 <p>Cameroon</p>
                 <p className="mt-3">
                   <strong>Phone:</strong> <span>+237 673660071</span>
@@ -29,7 +29,7 @@ const Footer = () => {
                 <a href="">
                   <i className="bi bi-twitter-x"></i>
                 </a>
-                <a href="">
+                <a href="https://www.facebook.com/profile.php?id=61578903479265">
                   <i className="bi bi-facebook"></i>
                 </a>
                 <a href="https://www.linkedin.com/company/quickrecords/about">

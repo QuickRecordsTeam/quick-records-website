@@ -50,10 +50,11 @@ const Testimonials = () => {
                   <div className="testimonial-content">
                     <p>
                       <i className="bi bi-quote quote-icon"></i>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Ut elit tellus, luctus nec ullamcorper mattis, pulvinar
-                      dapibus leo. Sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua.
+                      QuickRecords has revolutionized our financial management
+                      with its user-friendly interface and collaborative
+                      features. It streamlines record-keeping, boosting our
+                      productivity and providing unprecedented efficiency and
+                      clarity. Highly recommended!
                     </p>
                   </div>
                   <div className="testimonial-profile">
@@ -66,12 +67,15 @@ const Testimonials = () => {
                     </div>
                     <div className="profile-info">
                       <img
-                        src="/img/person/person-m-8.webp"
+                        src="/img/person/person-icon.webp"
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Robert Johnson</h3>
-                        <h4>Marketing Director</h4>
+                        <h3>Itoe Jean Noel</h3>
+                        <h4>
+                          Financial Secretary (Brother's Corner CYF Great Soppo
+                          Buea, Cameroon)
+                        </h4>
                       </div>
                     </div>
                   </div>
@@ -83,9 +87,11 @@ const Testimonials = () => {
                   <div className="testimonial-content">
                     <p>
                       <i className="bi bi-quote quote-icon"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec
-                      porttitora entum suscipit rhoncus. Accusantium quam,
-                      ultricies eget id, aliquam eget nibh et maecenas aliquam.
+                      QuickRecords has revolutionized our financial management
+                      with its user-friendly interface and collaborative
+                      features. It streamlines record-keeping, boosting our
+                      productivity and providing unprecedented efficiency and
+                      clarity. Highly recommended!
                     </p>
                   </div>
                   <div className="testimonial-profile">
@@ -98,12 +104,15 @@ const Testimonials = () => {
                     </div>
                     <div className="profile-info">
                       <img
-                        src="/img/person/person-f-3.webp"
+                        src="/img/person/person-icon.webp"
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Lisa Williams</h3>
-                        <h4>Product Manager</h4>
+                        <h3>Itoe Jean Noel</h3>
+                        <h4>
+                          Financial Secretary (Brother's Corner CYF Great Soppo
+                          Buea, Cameroon)
+                        </h4>
                       </div>
                     </div>
                   </div>
@@ -115,9 +124,11 @@ const Testimonials = () => {
                   <div className="testimonial-content">
                     <p>
                       <i className="bi bi-quote quote-icon"></i>
-                      Enim nisi quem export duis labore cillum quae magna enim
-                      sint quorum nulla quem veniam duis minim tempor labore
-                      quem eram duis noster aute amet eram.
+                      QuickRecords has revolutionized our financial management
+                      with its user-friendly interface and collaborative
+                      features. It streamlines record-keeping, boosting our
+                      productivity and providing unprecedented efficiency and
+                      clarity. Highly recommended!
                     </p>
                   </div>
                   <div className="testimonial-profile">
@@ -130,12 +141,15 @@ const Testimonials = () => {
                     </div>
                     <div className="profile-info">
                       <img
-                        src="/img/person/person-f-10.webp"
+                        src="/img/person/person-icon.webp"
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Emma Parker</h3>
-                        <h4>UX Designer</h4>
+                        <h3>Itoe Jean Noel</h3>
+                        <h4>
+                          Financial Secretary (Brother's Corner CYF Great Soppo
+                          Buea, Cameroon)
+                        </h4>
                       </div>
                     </div>
                   </div>
@@ -147,9 +161,11 @@ const Testimonials = () => {
                   <div className="testimonial-content">
                     <p>
                       <i className="bi bi-quote quote-icon"></i>
-                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa
-                      multos export minim fugiat minim velit minim dolor enim
-                      duis veniam ipsum anim magna sunt elit.
+                      QuickRecords has revolutionized our financial management
+                      with its user-friendly interface and collaborative
+                      features. It streamlines record-keeping, boosting our
+                      productivity and providing unprecedented efficiency and
+                      clarity. Highly recommended!
                     </p>
                   </div>
                   <div className="testimonial-profile">
@@ -162,12 +178,51 @@ const Testimonials = () => {
                     </div>
                     <div className="profile-info">
                       <img
-                        src="/img/person/person-m-5.webp"
+                        src="/img/person/person-icon.webp"
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>David Miller</h3>
-                        <h4>Senior Developer</h4>
+                        <h3>Itoe Jean Noel</h3>
+                        <h4>
+                          Financial Secretary (Brother's Corner CYF Great Soppo
+                          Buea, Cameroon)
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="swiper-slide">
+                <div className="testimonial-card">
+                  <div className="testimonial-content">
+                    <p>
+                      <i className="bi bi-quote quote-icon"></i>
+                      QuickRecords has revolutionized our financial management
+                      with its user-friendly interface and collaborative
+                      features. It streamlines record-keeping, boosting our
+                      productivity and providing unprecedented efficiency and
+                      clarity. Highly recommended!
+                    </p>
+                  </div>
+                  <div className="testimonial-profile">
+                    <div className="rating">
+                      <i className="bi bi-star-fill"></i>
+                      <i className="bi bi-star-fill"></i>
+                      <i className="bi bi-star-fill"></i>
+                      <i className="bi bi-star-fill"></i>
+                      <i className="bi bi-star-fill"></i>
+                    </div>
+                    <div className="profile-info">
+                      <img
+                        src="/img/person/person-icon.webp"
+                        alt="Profile Image"
+                      ></img>
+                      <div>
+                        <h3>Itoe Jean Noel</h3>
+                        <h4>
+                          Financial Secretary (Brother's Corner CYF Great Soppo
+                          Buea, Cameroon)
+                        </h4>
                       </div>
                     </div>
                   </div>
@@ -179,9 +234,11 @@ const Testimonials = () => {
                   <div className="testimonial-content">
                     <p>
                       <i className="bi bi-quote quote-icon"></i>
-                      Quis quorum aliqua sint quem legam fore sunt eram irure
-                      aliqua veniam tempor noster veniam enim culpa labore duis
-                      sunt culpa nulla illum cillum fugiat.
+                      QuickRecords has revolutionized our financial management
+                      with its user-friendly interface and collaborative
+                      features. It streamlines record-keeping, boosting our
+                      productivity and providing unprecedented efficiency and
+                      clarity. Highly recommended!
                     </p>
                   </div>
                   <div className="testimonial-profile">
@@ -194,44 +251,15 @@ const Testimonials = () => {
                     </div>
                     <div className="profile-info">
                       <img
-                        src="/img/person/person-m-2.webp"
+                        src="/img/person/person-icon.webp"
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Michael Davis</h3>
-                        <h4>CEO &amp; Founder</h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="swiper-slide">
-                <div className="testimonial-card">
-                  <div className="testimonial-content">
-                    <p>
-                      <i className="bi bi-quote quote-icon"></i>
-                      Eius ipsam praesentium dolor quaerat inventore rerum odio.
-                      Quos laudantium adipisci eius. Accusamus qui iste
-                      cupiditate sed temporibus est aspernatur.
-                    </p>
-                  </div>
-                  <div className="testimonial-profile">
-                    <div className="rating">
-                      <i className="bi bi-star-fill"></i>
-                      <i className="bi bi-star-fill"></i>
-                      <i className="bi bi-star-fill"></i>
-                      <i className="bi bi-star-fill"></i>
-                      <i className="bi bi-star-fill"></i>
-                    </div>
-                    <div className="profile-info">
-                      <img
-                        src="/img/person/person-f-7.webp"
-                        alt="Profile Image"
-                      ></img>
-                      <div>
-                        <h3>Sarah Thompson</h3>
-                        <h4>Art Director</h4>
+                        <h3>Itoe Jean Noel</h3>
+                        <h4>
+                          Financial Secretary (Brother's Corner CYF Great Soppo
+                          Buea, Cameroon)
+                        </h4>
                       </div>
                     </div>
                   </div>
