@@ -76,7 +76,7 @@ const Contact = () => {
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <h3>Our Address</h3>
-                <p>Buea, Southwest Region, Cameroon</p>
+                <p>P.O. Box 280 Buea, Southwest Region, Cameroon</p>
               </div>
             </div>
 
