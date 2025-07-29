@@ -21,7 +21,7 @@ const FAQ = () => {
       id: 2,
       status: false,
       title:
-        "How does it benefit or contribute to the growth of my organisation?",
+        "How does it benefit or contribute to the growth of my organisation or group?",
       description:
         "QuickRecords will save time, reduce errors, and enhance accuracy, accountability, and transparency while creating a comprehensive audit trail. The organization will gain a clear, data-driven understanding of member financial engagement, allowing it to identify trends, gain insights, and make informed financial planning decisions. Additionally, it will ensure continuity, prevent bottlenecks caused by the absenteeism of financial officers, and promote collaboration.",
     },
@@ -43,7 +43,7 @@ const FAQ = () => {
       id: 5,
       status: false,
       title:
-        "Does the Software save money in an organisation's or group's bank account?",
+        "Does the software save money in the organization's or group's bank account?",
       description:
         "No, the current version of this software does not interact with the organization's or group's bank accounts. It only records transaction details.",
     },
@@ -51,7 +51,7 @@ const FAQ = () => {
       id: 6,
       status: false,
       title:
-        "Does the Software support online transactions of money within the organisation?",
+        "Does the software support online money transactions within the organization?",
       description:
         "No, the current version of this software does not support online money transactions yet. However, users can issue money transactions directly to the organization's accounts. Once the Treasurer confirms the account credit, they can immediately or on-demand print a receipt for the transaction from the software.",
     },
