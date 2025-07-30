@@ -37,7 +37,7 @@ const FAQ = () => {
       status: false,
       title: "How is the pricing of the product?",
       description:
-        "QuickRecords is software offered as a service to organizations or groups, providing a 30-day free trial. After the trial period, organizations or groups can subscribe for a monthly fee ranging from 25,000 XAF to 100, 000 XAF based on the organisation and its size. This fee covers the setup of their package, including all features, data migration, updates, and 24/7 support and maintenance.",
+        "QuickRecords is software offered as a service to organizations or groups, providing a 30-day free trial. After the trial period, organizations or groups can subscribe for a monthly fee based on the organisation and its size after evaluation. This fee covers the setup of their package, including all features, data migration, updates, and 24/7 support and maintenance.",
     },
     {
       id: 5,
