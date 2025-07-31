@@ -58,9 +58,6 @@ const FAQ = () => {
   ]);
 
   const toggleStatus = (faq: FrequentlyAskedQuestions) => {
-    console.log(faq);
-    // console.log(...faqs);
-
     const originalFaq = [...faqs];
     originalFaq.map((e) => (e.status ? (e.status = !e.status) : e));
 
@@ -70,7 +67,7 @@ const FAQ = () => {
   };
 
   const handleSendEmail = () => {
-    const recipient = "info@quickrecords.com";
+    const recipient = "quickrec93@gmail.com";
     const subject = "Inquiry about the QuickRecords Platform";
     const body = "Please provide the body of your mail";
 
