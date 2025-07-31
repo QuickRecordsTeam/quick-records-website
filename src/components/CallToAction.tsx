@@ -58,6 +58,14 @@ const CallToAction = () => {
                     <i className="bi bi-check-circle-fill"></i>
                     <span>A 30-day free trial</span>
                   </div>
+                  <div
+                    className="feature-item"
+                    data-aos="zoom-in"
+                    data-aos-delay="500"
+                  >
+                    <i className="bi bi-check-circle-fill"></i>
+                    <span>Live Demo</span>
+                  </div>
                 </div>
 
                 <div className="cta-action mt-5">
