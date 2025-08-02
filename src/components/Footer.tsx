@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <Fragment>
       <footer id="footer" className="footer light-background">
@@ -58,7 +59,13 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="container copyright text-center mt-4"></div>
+        <div className="container copyright text-center mt-4">
+          <p>
+            ©<span> {year}</span>{" "}
+            <strong className="px-1 sitename">QuickRecords</strong>{" "}
+            <span>All Rights Reserved</span>
+          </p>
+        </div>
       </footer>
     </Fragment>
   );
