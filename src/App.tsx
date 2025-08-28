@@ -7,6 +7,7 @@ import CallToAction from "./components/CallToAction";
 import FAQ from "./components/FAQ";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
+import VideoCaption from "./components/VideoCaption";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Hero />
       <Features />
+      <VideoCaption />
       <CallToAction />
       <FAQ />
       <Testimonials />
