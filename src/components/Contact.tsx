@@ -15,7 +15,7 @@ const schema = z.object({
       invalid_type_error: "The phone number field is required",
     })
     .regex(/^\+?[1-9]\d{1,14}$/, {
-      message: "Please provide a valid phone number (+237xxxxxxxxx)",
+      message: "Please provide a valid phone number (e.g +237xxxxxxxxx) ",
     }),
   message: z
     .string({ invalid_type_error: "Please provide a message" })
