@@ -33,7 +33,7 @@ const VideoCaption = () => {
                     <div className="portfolio-overlay">
                       <div className="portfolio-actions">
                         <a
-                          href="/video/video-caption.mp4"
+                          href="https://www.youtube.com/watch?v=BShN5EAhQ10"
                           className="glightbox preview-link"
                           role="button"
                           data-bs-toggle="modal"

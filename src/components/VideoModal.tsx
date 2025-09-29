@@ -1,8 +1,7 @@
 import React from "react";
 
 export const VideoModal = () => {
-  const videoSrc =
-    "https://drive.google.com/file/d/1WTc2GQRoDTAQ8gULMYXx50TE5O7rScTU/preview";
+  const videoSrc = "https://www.youtube.com/embed/BShN5EAhQ10";
 
   return (
     <div>
