@@ -71,7 +71,7 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Itoe Jean Noel</h3>
+                        <h3>Jean Noel</h3>
                         <h4>
                           Financial Secretary (Brother's Corner CYF Great Soppo
                           Buea, Cameroon)
