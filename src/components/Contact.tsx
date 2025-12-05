@@ -17,6 +17,9 @@ const schema = z.object({
     .regex(/^\+?[1-9]\d{1,14}$/, {
       message: "Please provide a valid phone number (e.g +237xxxxxxxxx) ",
     }),
+  dateTime: z.string().transform((value) => new Date(value)).refine((date) => date >= new Date(), {
+    message: "Date and time must be in the future",
+  }),
   message: z
     .string({ invalid_type_error: "Please provide a message" })
     .max(1000, {
@@ -45,6 +48,7 @@ const Contact = () => {
         email: data.email,
         message: data.message,
         phone: data.phone,
+        dateTime: data.dateTime,
       })
       .then((res) => {
         successRef.current?.classList.add("d-block");
@@ -122,7 +126,7 @@ const Contact = () => {
                   className="php-email-form"
                 >
                   <div className="row">
-                    <div className="col-md-4 form-group mt-1">
+                    <div className="col-md-3 form-group mt-1">
                       <div className="input-group">
                         <span className="input-group-text">
                           <i className="bi bi-person"></i>
@@ -142,7 +146,7 @@ const Contact = () => {
                         )}
                       </div>
                     </div>
-                    <div className="col-md-4 form-group mt-1">
+                    <div className="col-md-3 form-group mt-1">
                       <div className="input-group">
                         <span className="input-group-text">
                           <i className="bi bi-envelope"></i>
@@ -162,7 +166,7 @@ const Contact = () => {
                         )}
                       </div>
                     </div>
-                    <div className="col-md-4 form-group mt-1">
+                    <div className="col-md-3 form-group mt-1">
                       <div className="input-group">
                         <span className="input-group-text">
                           <i className="bi bi-phone"></i>
@@ -179,6 +183,26 @@ const Contact = () => {
                       <div id="nameHelp" className="form-text">
                         {errors.phone && (
                           <p className="text-danger">{errors.phone.message}</p>
+                        )}
+                      </div>
+                    </div>
+                    <div className="col-md-3 form-group mt-1">
+                      <div className="input-group">
+                        <span className="input-group-text">
+                          <i className="bi bi-date"></i>
+                        </span>
+                        <input
+                          {...register("dateTime")}
+                          type="datetime-local"
+                          className="form-control"
+                          name="dateTime"
+                          placeholder="Date and Time*"
+                          required
+                        ></input>
+                      </div>
+                      <div id="nameHelp" className="form-text">
+                        {errors.dateTime && (
+                          <p className="text-danger">{errors.dateTime.message}</p>
                         )}
                       </div>
                     </div>
