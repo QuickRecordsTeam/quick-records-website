@@ -71,7 +71,7 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Mr. Ngiemboon Willson Yemba</h3>
+                        <h3>Mr. Ngiemboon Willson </h3>
                         <h4>
                           President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
@@ -107,7 +107,7 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Mr. Ngiemboon Willson Yemba</h3>
+                        <h3>Mr. Ngiemboon Willson </h3>
                         <h4>
                           President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
@@ -143,7 +143,7 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Mr. Ngiemboon Willson Yemba</h3>
+                        <h3>Mr. Ngiemboon Willson </h3>
                         <h4>
                           President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
@@ -179,7 +179,7 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Mr. Ngiemboon Willson Yemba</h3>
+                        <h3>Mr. Ngiemboon Willson </h3>
                         <h4>
                           President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
@@ -214,7 +214,7 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Mr. Ngiemboon Willson Yemba</h3>
+                        <h3>Mr. Ngiemboon Willson </h3>
                         <h4>
                           President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
@@ -250,7 +250,7 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Mr. Ngiemboon Willson Yemba</h3>
+                        <h3>Mr. Ngiemboon Willson </h3>
                         <h4>
                           President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
