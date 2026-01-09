@@ -71,10 +71,9 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Jean Noel</h3>
+                        <h3>Mr. Ngiemboon Willson Yemba</h3>
                         <h4>
-                          Financial Secretary (Brother's Corner CYF Great Soppo
-                          Buea, Cameroon)
+                          President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
                       </div>
                     </div>
@@ -108,10 +107,9 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Itoe Jean Noel</h3>
+                        <h3>Mr. Ngiemboon Willson Yemba</h3>
                         <h4>
-                          Financial Secretary (Brother's Corner CYF Great Soppo
-                          Buea, Cameroon)
+                          President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
                       </div>
                     </div>
@@ -145,10 +143,9 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Itoe Jean Noel</h3>
+                        <h3>Mr. Ngiemboon Willson Yemba</h3>
                         <h4>
-                          Financial Secretary (Brother's Corner CYF Great Soppo
-                          Buea, Cameroon)
+                          President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
                       </div>
                     </div>
@@ -182,10 +179,9 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Itoe Jean Noel</h3>
+                        <h3>Mr. Ngiemboon Willson Yemba</h3>
                         <h4>
-                          Financial Secretary (Brother's Corner CYF Great Soppo
-                          Buea, Cameroon)
+                          President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
                       </div>
                     </div>
@@ -218,10 +214,9 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Itoe Jean Noel</h3>
+                        <h3>Mr. Ngiemboon Willson Yemba</h3>
                         <h4>
-                          Financial Secretary (Brother's Corner CYF Great Soppo
-                          Buea, Cameroon)
+                          President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
                       </div>
                     </div>
@@ -255,10 +250,9 @@ const Testimonials = () => {
                         alt="Profile Image"
                       ></img>
                       <div>
-                        <h3>Itoe Jean Noel</h3>
+                        <h3>Mr. Ngiemboon Willson Yemba</h3>
                         <h4>
-                          Financial Secretary (Brother's Corner CYF Great Soppo
-                          Buea, Cameroon)
+                          President (Growth Mindset Association, Buea, Cameroon)
                         </h4>
                       </div>
                     </div>
