@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 const Hero = () => {
+  const createAccountUrl = "http://localhost:7000/auth/create-account"
   return (
     <Fragment>
       <section id="about" className="hero section">
@@ -26,7 +27,7 @@ const Hero = () => {
                 on maximizing productivity.
               </p>
               <div className="cta-wrapper">
-                <a href="#contact" className="btn btn-primary">
+                <a href={createAccountUrl} className="btn btn-primary">
                   Get Started
                 </a>
               </div>

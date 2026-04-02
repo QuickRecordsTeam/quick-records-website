@@ -31,6 +31,16 @@ const Header = () => {
       title: "Contact",
       href: "#contact",
     },
+     {
+      id: 5,
+      title: "Live Demo",
+      href: "#contact",
+    },
+     {
+      id: 6,
+      title: "Tutorials",
+      href: "#tutorials",
+    }
   ]);
 
   const navRef = useRef<HTMLAnchorElement>(null);
@@ -95,8 +105,12 @@ const Header = () => {
             ></i>
           </nav>
 
-          <a className="btn-getstarted" href="#contact" ref={demoBtnRef}>
-            Live Demo
+          <a className="btn-getstarted" href="http://localhost:7000/auth/login" ref={demoBtnRef}>
+           Sign in
+          </a>
+
+           <a className="btn-getstarted" href="http://localhost:7000/auth/client-onboarding" ref={demoBtnRef}>
+            Get Started
           </a>
         </div>
 
