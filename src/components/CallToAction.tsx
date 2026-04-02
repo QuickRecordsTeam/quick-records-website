@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 
 const CallToAction = () => {
+   const createAccountUrl = "http://localhost:7000/auth/create-account"
   return (
     <Fragment>
       <section
@@ -69,8 +70,8 @@ const CallToAction = () => {
                 </div>
 
                 <div className="cta-action mt-5">
-                  <a href="#contact" className="btn btn-primary btn-lg me-3">
-                    Get Started
+                  <a href={createAccountUrl} className="btn btn-primary btn-lg me-3">
+                    Create Account
                   </a>
                 </div>
               </div>

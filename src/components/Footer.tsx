@@ -2,6 +2,8 @@ import React, { Fragment } from "react";
 
 const Footer = () => {
   const year = new Date().getFullYear();
+   const createAccountUrl = "http://localhost:7000/auth/create-account"
+    const signInUrl = "http://localhost:7000/auth/login"
   return (
     <Fragment>
       <footer id="footer" className="footer light-background">
@@ -53,6 +55,12 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <a href={signInUrl}>Sign in</a>
+                </li>
+                <li>
+                  <a href={createAccountUrl}>Create Account</a>
                 </li>
               </ul>
             </div>
