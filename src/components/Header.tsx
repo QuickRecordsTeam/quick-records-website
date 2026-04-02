@@ -105,13 +105,13 @@ const Header = () => {
             ></i>
           </nav>
 
-          {/* <a className="btn-getstarted" href="http://localhost:7000/auth/login" ref={demoBtnRef}>
+          <a className="btn-getstarted" href="https://quickrecords.xyz/auth/login" ref={demoBtnRef}>
            Sign in
           </a>
 
-           <a className="btn-getstarted" href="http://localhost:7000/auth/client-onboarding" ref={demoBtnRef}>
+           <a className="btn-getstarted" href="https://quickrecords.xyz/auth/client-onboarding" ref={demoBtnRef}>
             Get Started
-          </a> */}
+          </a>
         </div>
 
         <div
