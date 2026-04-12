@@ -1,4 +1,4 @@
-import React, { Fragment, useRef, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 interface NavLink {
   id: number;
   title: string;
@@ -10,7 +10,8 @@ const Header = () => {
     title: "Home",
     href: "#about",
   });
-  const [navLinks, setNavLinks] = useState<NavLink[]>([
+  const oboardingUrl = import.meta.env.VITE_ON_BOARDING_URL;
+  const [navLinks] = useState<NavLink[]>([
     {
       id: 1,
       title: "Home",
@@ -31,16 +32,16 @@ const Header = () => {
       title: "Contact",
       href: "#contact",
     },
-     {
+    {
       id: 5,
       title: "Live Demo",
       href: "#contact",
     },
-    //  {
-    //   id: 6,
-    //   title: "Tutorials",
-    //   href: "#tutorials",
-    // }
+    {
+      id: 6,
+      title: "Sign In",
+      href: import.meta.env.VITE_LOGIN_URL,
+    },
   ]);
 
   const navRef = useRef<HTMLAnchorElement>(null);
@@ -105,13 +106,9 @@ const Header = () => {
             ></i>
           </nav>
 
-          {/* <a className="btn-getstarted" href="https://quickrecords.xyz/auth/login" ref={demoBtnRef}>
-           Sign in
-          </a>
-
-           <a className="btn-getstarted" href="https://quickrecords.xyz/auth/client-onboarding" ref={demoBtnRef}>
+          <a className="btn-getstarted" href={oboardingUrl} ref={demoBtnRef}>
             Get Started
-          </a> */}
+          </a>
         </div>
 
         <div

@@ -1,9 +1,9 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 
 const Footer = () => {
   const year = new Date().getFullYear();
-   const createAccountUrl = "http://localhost:7000/auth/create-account"
-    const signInUrl = "http://localhost:7000/auth/login"
+  const createAccountUrl = import.meta.env.VITE_ON_BOARDING_URL;
+  const signInUrl = import.meta.env.VITE_LOGIN_URL;
   return (
     <Fragment>
       <footer id="footer" className="footer light-background">
@@ -57,10 +57,10 @@ const Footer = () => {
                   <a href="#">Terms of service</a>
                 </li>
                 <li>
-                  <a href={signInUrl}>Sign in</a>
+                  <a href={signInUrl} target="_blank">Sign in</a>
                 </li>
                 <li>
-                  <a href={createAccountUrl}>Create Account</a>
+                  <a href={createAccountUrl} target="_blank">Create Account</a>
                 </li>
               </ul>
             </div>
