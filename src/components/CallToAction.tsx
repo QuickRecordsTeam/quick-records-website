@@ -73,6 +73,7 @@ const CallToAction = () => {
                   <a
                     href={createAccountUrl}
                     className="btn btn-primary btn-lg me-3"
+                    target="_blank"
                   >
                     Create Account
                   </a>

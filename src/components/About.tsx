@@ -21,7 +21,7 @@ const About = () => {
                 productivity.
               </p>
 
-              <a href={oboardingUrl} className="read-more">
+              <a href={oboardingUrl} className="read-more" target="_blank">
                 <span>Get Started</span>
                 <i className="bi bi-arrow-right"></i>
               </a>

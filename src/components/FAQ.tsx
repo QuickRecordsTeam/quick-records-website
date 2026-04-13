@@ -7,7 +7,6 @@ interface FrequentlyAskedQuestions {
   description: string;
 }
 const FAQ = () => {
-  const [isActive, setActive] = useState(false);
   const [faqs, setFaqs] = useState<FrequentlyAskedQuestions[]>([
     {
       id: 1,

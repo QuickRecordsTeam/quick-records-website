@@ -88,6 +88,7 @@ const Header = () => {
                 <li key={e.id}>
                   <a
                     href={e.href}
+                    target={e.id === 6 ? "_blank" : ""}
                     className={e.id == currentActiveLink.id ? "active" : ""}
                     onClick={() => setCurrentActiveLink(e)}
                   >
@@ -106,7 +107,7 @@ const Header = () => {
             ></i>
           </nav>
 
-          <a className="btn-getstarted" href={oboardingUrl} ref={demoBtnRef}>
+          <a className="btn-getstarted" href={oboardingUrl} ref={demoBtnRef} target="_blank">
             Get Started
           </a>
         </div>
@@ -145,6 +146,7 @@ const Header = () => {
                   <li key={e.id}>
                     <a
                       href={e.href}
+                      target={e.id === 6 ? "_blank" : ""}
                       data-bs-dismiss="offcanvas"
                       className={e.id == currentActiveLink.id ? "active" : ""}
                       onClick={() => handleActiveNavLink(e)}
