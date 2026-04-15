@@ -3,7 +3,7 @@ import { Fragment } from "react";
 const Features = () => {
   return (
     <Fragment>
-      <section id="features" className="services section">
+      <section id="features" className="services section light-background">
         <div className="container section-title" data-aos="fade-up">
           <h2>Features</h2>
           <p>

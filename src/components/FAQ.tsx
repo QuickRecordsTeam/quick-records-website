@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import { Fragment, useState } from "react";
 
 interface FrequentlyAskedQuestions {
   id: number;
@@ -7,7 +7,6 @@ interface FrequentlyAskedQuestions {
   description: string;
 }
 const FAQ = () => {
-  const [isActive, setActive] = useState(false);
   const [faqs, setFaqs] = useState<FrequentlyAskedQuestions[]>([
     {
       id: 1,

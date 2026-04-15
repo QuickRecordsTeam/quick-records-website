@@ -1,4 +1,5 @@
 import { Fragment, lazy, Suspense } from "react";
+import HowItWorks from "./components/HowItWorks";
 
 const Header = lazy(() => import("./components/Header"));
 const Footer = lazy(() => import("./components/Footer"));
@@ -15,6 +16,7 @@ function App() {
       <Suspense fallback={<div id="preloader"></div>}>
         <Header />
         <Hero />
+        <HowItWorks />
         <Features />
         <VideoCaption />
         <CallToAction />

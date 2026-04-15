@@ -1,6 +1,7 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 
 const About = () => {
+  const oboardingUrl = import.meta.env.VITE_ON_BOARDING_URL;
   return (
     <Fragment>
       <section id="about" className="about section">
@@ -20,7 +21,7 @@ const About = () => {
                 productivity.
               </p>
 
-              <a href="#" className="read-more">
+              <a href={oboardingUrl} className="read-more" target="_blank">
                 <span>Get Started</span>
                 <i className="bi bi-arrow-right"></i>
               </a>

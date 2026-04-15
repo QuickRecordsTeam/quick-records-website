@@ -1,7 +1,7 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 
 const Hero = () => {
-  const createAccountUrl = "http://localhost:7000/auth/create-account"
+  const oboardingUrl = import.meta.env.VITE_ON_BOARDING_URL;
   return (
     <Fragment>
       <section id="about" className="hero section">
@@ -27,7 +27,11 @@ const Hero = () => {
                 on maximizing productivity.
               </p>
               <div className="cta-wrapper">
-                <a href={createAccountUrl} className="btn btn-primary">
+                <a
+                  href={oboardingUrl}
+                  className="btn btn-primary"
+                  target="_blank"
+                >
                   Get Started
                 </a>
               </div>

@@ -1,7 +1,7 @@
-import React, { Fragment } from "react";
+import { Fragment } from "react";
 
 const CallToAction = () => {
-   const createAccountUrl = "http://localhost:7000/auth/create-account"
+  const createAccountUrl = import.meta.env.VITE_ON_BOARDING_URL;
   return (
     <Fragment>
       <section
@@ -70,7 +70,11 @@ const CallToAction = () => {
                 </div>
 
                 <div className="cta-action mt-5">
-                  <a href={createAccountUrl} className="btn btn-primary btn-lg me-3">
+                  <a
+                    href={createAccountUrl}
+                    className="btn btn-primary btn-lg me-3"
+                    target="_blank"
+                  >
                     Create Account
                   </a>
                 </div>
