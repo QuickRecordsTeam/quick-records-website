@@ -71,11 +71,9 @@ const HowItWorks = () => {
                       <i className="bi bi-search"></i>
                     </div>
                     <div className="step-content">
-                      <h3>Financial Year Selection</h3>
+                      <h3>Membership Fee Configuration</h3>
                       <p>
-                        Set your active reporting period. All recorded
-                        transactions and reports will be categorized under this
-                        year.
+                       Define the standard registration cost for new members. This value will be automatically applied to all enrollment records.
                       </p>
                     </div>
                   </div>
