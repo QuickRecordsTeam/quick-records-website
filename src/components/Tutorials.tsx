@@ -6,6 +6,7 @@ import { TutorialList } from "./TutorialList";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { UserManagement } from "./tutorials/UserManagement";
 import { OrganisationSetup } from "./tutorials/OrganisationSetup";
+import { Login } from "./tutorials/Login";
 
 export const Tutorials = () => {
   return (
@@ -15,6 +16,7 @@ export const Tutorials = () => {
         <Routes>
           <Route path={WEBSITE_ROUTES.TUTORIALS} element={<TutorialList />} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_INCOME_MANAGEMENT} />
+          <Route path={WEBSITE_ROUTES.TUTORIAL_LOGIN} element={<Login />} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_SAVINGS_MANAGEMENT} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_SPONSHOR_MANAGEMENT} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_REPORT_MANAGEMENT} />

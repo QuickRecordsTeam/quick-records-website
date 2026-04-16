@@ -45,6 +45,23 @@ export const TutorialList = () => {
                 </div>
               </div>
             </div>
+             <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(WEBSITE_ROUTES.TUTORIAL_LOGIN)}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-people"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Login</h3>
+                </div>
+              </div>
+            </div>
             <div
               className="col-md-4"
               data-aos="fade-right"

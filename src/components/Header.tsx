@@ -45,7 +45,7 @@ const Header = () => {
     },
     {
       id: 7,
-      title: "Sign In",
+      title: "Log In",
       href: import.meta.env.VITE_LOGIN_URL,
       name: "SIGN_IN",
     },

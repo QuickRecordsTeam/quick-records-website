@@ -27,4 +27,5 @@ export const WEBSITE_ROUTES = Object.freeze({
   TUTORIAL_CONTRIBUTION_MANAGEMENT: `/${TUTORIALS_BASE_URL}/contribution-management`,
   TUTORIAL_INVITE_COLLABORATOR: `/${TUTORIALS_BASE_URL}/invite-collaborator`,
   TUTORIAL_ROLE_MANAGEMENT: `/${TUTORIALS_BASE_URL}/role-management`,
+  TUTORIAL_LOGIN: `/${TUTORIALS_BASE_URL}/login`,
 });
