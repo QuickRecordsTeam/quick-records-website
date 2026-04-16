@@ -3,6 +3,7 @@ interface NavLink {
   id: number;
   title: string;
   href: string;
+  name?: string;  
 }
 const Header = () => {
   const [currentActiveLink, setCurrentActiveLink] = useState<NavLink>({
@@ -15,32 +16,38 @@ const Header = () => {
     {
       id: 1,
       title: "Home",
-      href: "#about",
+      href: "http://localhost:5173/#about",
     },
     {
       id: 2,
       title: "Features",
-      href: "#features",
+      href: "http://localhost:5173/#features",
     },
     {
       id: 3,
       title: "FAQs",
-      href: "#faq",
+      href: "http://localhost:5173/#faq",
     },
     {
       id: 4,
       title: "Contact",
-      href: "#contact",
+      href: "http://localhost:5173/#contact",
     },
     {
       id: 5,
       title: "Live Demo",
-      href: "#contact",
+      href: "http://localhost:5173/#contact",
     },
     {
       id: 6,
+      title: "Tutorials",
+      href: import.meta.env.VITE_TUTORIALS_URL,
+    },
+    {
+      id: 7,
       title: "Sign In",
       href: import.meta.env.VITE_LOGIN_URL,
+      name: "SIGN_IN",
     },
   ]);
 
@@ -88,7 +95,7 @@ const Header = () => {
                 <li key={e.id}>
                   <a
                     href={e.href}
-                    target={e.id === 6 ? "_blank" : ""}
+                    target={e.name === "SIGN_IN" ? "_blank" : ""}
                     className={e.id == currentActiveLink.id ? "active" : ""}
                     onClick={() => setCurrentActiveLink(e)}
                   >

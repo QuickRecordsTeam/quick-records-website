@@ -1,5 +1,6 @@
 import { Fragment, lazy, Suspense } from "react";
 import HowItWorks from "./components/HowItWorks";
+import { Tutorials } from "./components/Tutorials";
 
 const Header = lazy(() => import("./components/Header"));
 const Footer = lazy(() => import("./components/Footer"));
@@ -11,19 +12,27 @@ const FAQ = lazy(() => import("./components/FAQ"));
 const Testimonials = lazy(() => import("./components/Testimonials"));
 const Contact = lazy(() => import("./components/Contact"));
 function App() {
+  const tutorialsUrl = import.meta.env.VITE_TUTORIALS_URL;
+  const currentUrl = window.location.href;
   return (
     <Fragment>
       <Suspense fallback={<div id="preloader"></div>}>
-        <Header />
-        <Hero />
-        <HowItWorks />
-        <Features />
-        <VideoCaption />
-        <CallToAction />
-        <FAQ />
-        <Testimonials />
-        <Contact />
-        <Footer />
+        {currentUrl === tutorialsUrl ? (
+          <Tutorials />
+        ) : (
+          <>
+            <Header />
+            <Hero />
+            <HowItWorks />
+            <Features />
+            <VideoCaption />
+            <CallToAction />
+            <FAQ />
+            <Testimonials />
+            <Contact />
+            <Footer />
+          </>
+        )}
       </Suspense>
     </Fragment>
   );

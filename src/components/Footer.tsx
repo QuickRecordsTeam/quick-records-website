@@ -11,12 +11,10 @@ const Footer = () => {
           <div className=" gy-4 d-flex justify-content-between">
             <div className="footer-about">
               <a href="/" className="logo d-flex align-items-center">
-                <span className="sitename">
+                 <img src="/img/logo.png" alt="web application logo"></img>
                   <span className="app-name-one">
-                    <img src="/img/logo.png" alt="web application logo"></img>
                     Quick<span className="app-name-two">Records</span>
                   </span>
-                </span>
               </a>
               <div className="footer-contact pt-3">
                 <p>P.O. Box 280 Buea, Southwest Region</p>
