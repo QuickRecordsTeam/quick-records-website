@@ -14,6 +14,9 @@ import { InviteCollaborators } from "./tutorials/InviteCollaborators";
 import { RegisterMember } from "./tutorials/RegisterMember";
 import { PaymentCategories } from "./tutorials/PaymentCategories";
 import { PaymentItems } from "./tutorials/PaymentItems";
+import { ExpenditureCategories } from "./tutorials/ExpenditureCategories";
+import { ExpenditureItems } from "./tutorials/ExpenditureItems";
+import { ExpenditureItemDetails } from "./tutorials/ExpenditureItemDetails";
 
 export const Tutorials = () => {
   return (
@@ -29,8 +32,23 @@ export const Tutorials = () => {
           <Route path={WEBSITE_ROUTES.TUTORIAL_REPORT_MANAGEMENT} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_BALANCE_SHEET} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_CONTRIBUTION_MANAGEMENT} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_INVITE_COLLABORATOR} element={<InviteCollaborators />} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_USER_REGISTRATION} element={<RegisterMember />} />
+          <Route path={WEBSITE_ROUTES.TUTORIAL_EXPENDITURE_ITEM_DETAIL_MANAGEMENT} element={<ExpenditureItemDetails />} />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_EXPENDITURE_ITEM_MANAGEMENT}
+            element={<ExpenditureItems />}
+          />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_INVITE_COLLABORATOR}
+            element={<InviteCollaborators />}
+          />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_USER_REGISTRATION}
+            element={<RegisterMember />}
+          />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_EXPENDITURE_MANAGEMENT}
+            element={<ExpenditureCategories />}
+          />
           <Route
             path={WEBSITE_ROUTES.TUTORIAL_ACCOUNT_SETUP}
             element={<OrganisationSetup />}
@@ -52,8 +70,14 @@ export const Tutorials = () => {
             path={WEBSITE_ROUTES.TUTORIAL_USER_MANAGEMENT}
             element={<MemberManagement />}
           />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_PAYMENT_CATEGORY_MANAGEMENT} element={<PaymentCategories />} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_PAYMENT_ITEM_MANAGEMENT} element={<PaymentItems />} />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_PAYMENT_CATEGORY_MANAGEMENT}
+            element={<PaymentCategories />}
+          />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_PAYMENT_ITEM_MANAGEMENT}
+            element={<PaymentItems />}
+          />
         </Routes>
         <Footer />
       </BrowserRouter>
