@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-export const MembershipFee = () => {
+export const RoleManagement = () => {
   return (
     <Fragment>
       <section
@@ -8,11 +8,13 @@ export const MembershipFee = () => {
         className="services section light-background tutorials"
       >
         <div className="container section-title" data-aos="fade-up">
-          <h2>Membership Fee</h2>
+          <h2>Role Management</h2>
           <p>
-            To manage your organization's membership in QuickRecords, you can
-            set up registration amount. This feature allows you to easily
-            monitor and manage membership enrollment.
+            To manage user roles in QuickRecords, you can defined the number of
+            administrators for each role and their term of office. This feature
+            allows you to easily manage access to your organization's records
+            and ensure that only authorized users have access to sensitive
+            information.
           </p>
         </div>
 
@@ -72,13 +74,13 @@ export const MembershipFee = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 2: Setting</h3>
+                  <h3>Step 2: Role Management</h3>
 
                   <ul>
                     <li>
                       <span>
-                        Click on the <b>Settings</b> tab on the left sidebar to
-                        navigate to the settings page.
+                        Click on the <b>Role Management</b> tab on the left
+                        sidebar to navigate to the settings page.
                       </span>
                     </li>
                   </ul>
@@ -88,7 +90,7 @@ export const MembershipFee = () => {
                   <div className="portfolio-card">
                     <div className="portfolio-image">
                       <img
-                        src="/img/registration_fee/setting.png"
+                        src="/img/role/role_tab.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -105,23 +107,18 @@ export const MembershipFee = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 3: Registration Fee</h3>
+                  <h3>Step 3: Edit Role</h3>
                   <p className="fst-italic">
-                    The <b>Add</b> button will be disabled if an active
-                    registration fee already exists. You can only have one
-                    active registration fee at a time.
+                    Each role has a list of privileges which defined what
+                    actions users with that role can perform, a default number
+                    of administrators, and a default term of office. You can
+                    only edit number of administrators and term of office to fit
+                    your organization's needs.
                   </p>
                   <ul>
                     <li>
                       <span>
-                        Click on the <b>Add</b> button to create a new
-                        registration fee.
-                      </span>
-                    </li>
-                    <li>
-                      <span>
-                        Click on the <b>Pencil</b> icon to eidt a registration
-                        fee.
+                        Click on the <b>Pencil</b> icon to edit a role.
                       </span>
                     </li>
                   </ul>
@@ -131,7 +128,7 @@ export const MembershipFee = () => {
                   <div className="portfolio-card">
                     <div className="portfolio-image">
                       <img
-                        src="/img/registration_fee/add_button.png"
+                        src="/img/role/edit_role.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -148,14 +145,14 @@ export const MembershipFee = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 4: Provide Registration Fee Information</h3>
+                  <h3>Step 4: Provide Role Information</h3>
                   <ul>
                     <li>
                       <span>Fill in all the required fields</span>
                     </li>
                     <li>
                       <span>
-                        Click on the <b>Add</b> button to complete the process.
+                        Click on the <b>Save</b> button to complete the process.
                       </span>
                     </li>
                   </ul>
@@ -165,7 +162,7 @@ export const MembershipFee = () => {
                   <div className="portfolio-card">
                     <div className="portfolio-image">
                       <img
-                        src="/img/registration_fee/registration_fee_form.png"
+                        src="/img/role/role_form.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"

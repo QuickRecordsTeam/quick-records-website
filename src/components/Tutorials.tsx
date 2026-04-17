@@ -9,6 +9,7 @@ import { OrganisationSetup } from "./tutorials/OrganisationSetup";
 import { Login } from "./tutorials/Login";
 import { FinancialYearSetup } from "./tutorials/FinancialYearSetup";
 import { MembershipFee } from "./tutorials/MembershipFee";
+import { RoleManagement } from "./tutorials/RoleManagement";
 
 export const Tutorials = () => {
   return (
@@ -28,6 +29,7 @@ export const Tutorials = () => {
           <Route path={WEBSITE_ROUTES.TUTORIAL_CURRENT_YEAR_SETUP} element={<FinancialYearSetup />} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_MEMBERSHIP_FEE_SETUP} element={<MembershipFee />} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_ORGANISATION_MANAGEMENT} />
+          <Route path={WEBSITE_ROUTES.TUTORIAL_ROLE_MANAGEMENT} element={<RoleManagement />} />
           <Route
             path={WEBSITE_ROUTES.TUTORIAL_USER_MANAGEMENT}
             element={<UserManagement />}
