@@ -243,11 +243,10 @@ export const ExpenditureItemDetails = () => {
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
                   <h3>Step 7: Validate Expenditure Item</h3>
                   <p className="fst-italic">
-                    Tip1: All expenditure item details must be validated before
-                    the expenditure item can be validated.<br/> Tip2: Only validated
-                    expenditure items would be included in the reports.<br/> Tip3:
-                    You can also do a bulk validation by using the checkbox at
-                    the left side of the table on each record.
+                    In QuickRecords, validation is a multi-step process that ensures your financial data is accurate and ready for reporting.
+                    Tip1: You must validate all individual details within an expenditure item before the overall expenditure item itself can be validated.<br/> Tip2: Only items that have been fully validated will appear in your organization's financial reports.
+                    <br/> Tip3:
+                    You can perform bulk validations by selecting multiple records using the checkboxes on the left side of the data table.
                   </p>
                   <ul>
                     <li>

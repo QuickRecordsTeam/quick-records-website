@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-export const ExpenditureItems = () => {
+export const IncomeActivity = () => {
   return (
     <Fragment>
       <section
@@ -8,16 +8,17 @@ export const ExpenditureItems = () => {
         className="services section light-background tutorials"
       >
         <div className="container section-title" data-aos="fade-up">
-          <h2>Expenditure Items</h2>
+          <h2>Income Activity</h2>
           <p>
-            QuickRecords allows you to manage and track specific costs
-            associated with activities like hall construction, end-of-year
-            events, or family condolences. This ensures precise financial
-            reporting by linking every expense to a specific payment item
-            (activity). Expenditure Items are grouped under Expenditure
-            Categories to keep different transaction types organized. It
-            provides a clear overview of how funds are being utilized across
-            various organizational projects.
+            QuickRecords centralizes the management of all revenue streams by
+            tracking Income Activities tied to specific payment items. Manage
+            and monitor diverse income sources in one unified location.
+            <br />
+            Any action or event that generates revenue for a specific payment
+            item.
+            <br />
+            Provides a comprehensive view of how and where your organization is
+            earning money.
           </p>
         </div>
 
@@ -76,13 +77,12 @@ export const ExpenditureItems = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 2: Expenditure Categories</h3>
+                  <h3>Step 2: Income Activities</h3>
                   <ul>
                     <li>
                       <span>
-                        Click on the <b>Expenditure Categories</b> tab on the
-                        left sidebar to navigate to the expenditure categories
-                        page.
+                        Click on the <b>Income Activities</b> tab on the left
+                        sidebar to navigate to the income activity page.
                       </span>
                     </li>
                   </ul>
@@ -91,7 +91,7 @@ export const ExpenditureItems = () => {
                   <div className="portfolio-card">
                     <div className="portfolio-image">
                       <img
-                        src="/img/payment/payment_category_tab.png"
+                        src="/img/income/income_tab.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -100,6 +100,7 @@ export const ExpenditureItems = () => {
                   </div>
                 </div>
               </div>
+
               <hr />
               <div
                 className="row g-4 isotope-container"
@@ -107,13 +108,12 @@ export const ExpenditureItems = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 3: View Expenditure Item</h3>
+                  <h3>Step 3: Add Income Activity</h3>
                   <ul>
                     <li>
                       <span>
-                        Click the <b>View Expenditure Items</b> button to view
-                        all the expenditure items under a specific expenditure
-                        category.
+                        Click the <b>Add +</b> button add an income raised for a
+                        particular payment item or activity.
                       </span>
                     </li>
                   </ul>
@@ -123,7 +123,7 @@ export const ExpenditureItems = () => {
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/expenditure/view_expenditure_items.png"
+                        src="/img/income/add_income_btn.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -132,37 +132,7 @@ export const ExpenditureItems = () => {
                   </div>
                 </div>
               </div>
-              <hr />
-              <div
-                className="row g-4 isotope-container"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 4: Add Expenditure Item</h3>
-                  <ul>
-                    <li>
-                      <span>
-                        Click the <b>Add +</b> button an expenditure items under
-                        a specific expenditure category.
-                      </span>
-                    </li>
-                  </ul>
-                </div>
 
-                <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
-                  <div className="portfolio-card">
-                    <div className="">
-                      <img
-                        src="/img/expenditure/add_expenditure_btn.png"
-                        className="img-fluid"
-                        alt=""
-                        loading="lazy"
-                      ></img>
-                    </div>
-                  </div>
-                </div>
-              </div>
               <hr />
               <div
                 className="row g-4 isotope-container"
@@ -170,15 +140,14 @@ export const ExpenditureItems = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 5: Fill Expenditure Item Information</h3>
+                  <h3>Step 4: Fill Income Activity Information</h3>
                   <ul>
                     <li>
                       <span>Fill in the required fields in the form</span>
                     </li>
                     <li>
                       <span>
-                        Click the <b>Save</b> button to complete the process of
-                        adding a new expenditure item.
+                        Click the <b>Save</b> button to complete the process.
                       </span>
                     </li>
                   </ul>
@@ -188,7 +157,7 @@ export const ExpenditureItems = () => {
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/expenditure/add_expenditure_item_form.png"
+                        src="/img/income/income_form.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -197,6 +166,7 @@ export const ExpenditureItems = () => {
                   </div>
                 </div>
               </div>
+
               <hr />
               <div
                 className="row g-4 isotope-container"
@@ -204,32 +174,21 @@ export const ExpenditureItems = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 6: Validate Expenditure Item</h3>
+                  <h3>Step 5: Validate Income Active</h3>
                   <p className="fst-italic">
-                    In QuickRecords, validation follows a strict hierarchy to
-                    ensure financial integrity. An Expenditure Item cannot be
-                    finalized until every one of its underlying Expenditure Item
-                    Details has been verified.
-                    <br /> Tip1: Only the Admin, President, or Treasurer has the
-                    authority to validate these records.
-                    <br />
-                    <b>The Workflow: </b><br/>1. Validate all individual Expenditure Item
-                    Details (the specific costs).
-                    <br />
-                    2. Once all details are cleared, the parent Expenditure Item
-                    becomes eligible for validation. <br />
-                    Tip3: Completion of this process ensures the data is
-                    accurate, confirmed by leadership, and ready for official
-                    reporting.
+                    In QuickRecords, validation is a multi-step process that
+                    ensures your financial data is accurate and ready for
+                    reporting. Tip1: Once an income has been approve by either
+                    the <b>Treasurer</b>, <b>President</b> or <b>Admin</b> it
+                    can not be edited again.
                   </p>
                   <ul>
                     <li>
                       <span>
                         Click either <b>Approve</b> button or <b>Decline</b>{" "}
-                        button to validate an expenditure item.
+                        button to validate an income activity.
                       </span>
                     </li>
-                  
                   </ul>
                 </div>
 
@@ -237,7 +196,7 @@ export const ExpenditureItems = () => {
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/expenditure/confirm_expenditure.png"
+                        src="/img/expenditure/view_expenditure_item.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -253,57 +212,23 @@ export const ExpenditureItems = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 5.1: Approve Expenditure Item</h3>
-                  <ul>
-                    <li>
-                      <span>
-                        Click the <b>Approve</b> button approve an expenditure
-                        item
-                      </span>
-                    </li>
-                     <li>
-                      <span>
-                       Once approve select a filter criteria and click <b>Filter</b> to see the validated results
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
-                  <div className="portfolio-card">
-                    <div className="">
-                      <img
-                        src="/img/expenditure/approve_item.png"
-                        className="img-fluid"
-                        alt=""
-                        loading="lazy"
-                      ></img>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <hr />
-              <div
-                className="row g-4 isotope-container"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 5.2: Decline Income Active</h3>
+                  <h3>Step 5.1: Approve Income Activity</h3>
 
                   <ul>
                     <li>
                       <span>
-                        Click the <b>Decline</b> button decline an expenditure
-                        item
+                        Click the <b>Approve</b> button approve an income
+                        activity.
                       </span>
                     </li>
                   </ul>
                 </div>
+
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/expenditure/decline_item.png"
+                        src="/img/income/approve.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -319,12 +244,50 @@ export const ExpenditureItems = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Update Expenditure Item (Optional)</h3>
+                  <h3>Step 5.2: Decline Income Activity</h3>
+
+                  <ul>
+                    <li>
+                      <span>
+                        Click the <b>Decline</b> button decline an income
+                        activity.
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-graphics">
+                  <div className="portfolio-card">
+                    <div className="">
+                      <img
+                        src="/img/income/decline.png"
+                        className="img-fluid"
+                        alt=""
+                        loading="lazy"
+                      ></img>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <hr />
+              <div
+                className="row g-4 isotope-container"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
+                  <h3>Update Income Active(Optional)</h3>
+                  <p className="fst-italic">
+                    Tip1: Once an income has been approve by either the{" "}
+                    <b>Treasurer</b>, <b>President</b> or <b>Admin</b> it can
+                    not be edited again.
+                  </p>
                   <ul>
                     <li>
                       <span>
                         Click on the menu icon to <b>View</b>, <b>Edit</b> or{" "}
-                        <b>Delete</b> a expenditure item.
+                        <b>Delete</b> an income activity
                       </span>
                     </li>
                   </ul>
