@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-export const IncomeActivity = () => {
+export const SponsorshipManagement = () => {
   return (
     <Fragment>
       <section
@@ -8,17 +8,13 @@ export const IncomeActivity = () => {
         className="services section light-background tutorials"
       >
         <div className="container section-title" data-aos="fade-up">
-          <h2>Income Activity</h2>
+          <h2>Sponsorship Management</h2>
           <p>
-            QuickRecords centralizes the management of all revenue streams by
-            tracking Income Activities tied to specific payment items. Manage
-            and monitor diverse income sources in one unified location.
+           QuickRecords centralizes the tracking of sponsorships, allowing you to monitor diverse revenue sources tied to specific payment items in one unified location.
             <br />
-            Any action or event that generates revenue for a specific payment
-            item.
+            Link every sponsorship to a specific action or event that generates funds.
             <br />
-            Providing a comprehensive view of how and where your organization is
-            earning money.
+            Providing a comprehensive view of your organization's earnings, detailing exactly how and where revenue is being generated.
           </p>
         </div>
 
@@ -77,12 +73,12 @@ export const IncomeActivity = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 2: Income Activities</h3>
+                  <h3>Step 2: Sponsorship Management</h3>
                   <ul>
                     <li>
                       <span>
-                        Click on the <b>Income Activities</b> tab on the left
-                        sidebar to navigate to the income activity page.
+                        Click on the <b>Sponsorship Management</b> tab on the left
+                        sidebar to navigate to the sponsorship page.
                       </span>
                     </li>
                   </ul>
@@ -91,7 +87,7 @@ export const IncomeActivity = () => {
                   <div className="portfolio-card">
                     <div className="portfolio-image">
                       <img
-                        src="/img/income/income_tab.png"
+                        src="/img/sponsorship/sponsorship_tab.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -108,11 +104,11 @@ export const IncomeActivity = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 3: Add Income Activity</h3>
+                  <h3>Step 3: Add Sponsorship</h3>
                   <ul>
                     <li>
                       <span>
-                        Click the <b>Add +</b> button add an income raised for a
+                        Click the <b>Add +</b> button add an sponsorship for a
                         particular payment item or activity.
                       </span>
                     </li>
@@ -123,7 +119,7 @@ export const IncomeActivity = () => {
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/income/add_income_btn.png"
+                        src="/img/sponsorship/add_sponsorship.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -140,7 +136,7 @@ export const IncomeActivity = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 4: Fill Income Activity Information</h3>
+                  <h3>Step 4: Fill Sponsorship Information</h3>
                   <ul>
                     <li>
                       <span>Fill in the required fields in the form</span>
@@ -157,7 +153,7 @@ export const IncomeActivity = () => {
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/income/income_form.png"
+                        src="/img/sponsorship/add_sponsorship_form.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -174,11 +170,11 @@ export const IncomeActivity = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 5: Validate Income Activity</h3>
+                  <h3>Step 5: Validate Sponsorship Record</h3>
                   <p className="fst-italic">
                     In QuickRecords, validation is a multi-step process that
                     ensures your financial data is accurate and ready for
-                    reporting. Tip1: Once an income has been approve by either
+                    reporting. Tip1: Once an sponsorship record has been approve by either
                     the <b>Treasurer</b>, <b>President</b> or <b>Admin</b> it
                     can not be edited again.
                   </p>
@@ -186,7 +182,7 @@ export const IncomeActivity = () => {
                     <li>
                       <span>
                         Click either <b>Approve</b> button or <b>Decline</b>{" "}
-                        button to validate an income activity.
+                        button to validate sponsorship
                       </span>
                     </li>
                   </ul>
@@ -196,7 +192,7 @@ export const IncomeActivity = () => {
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/expenditure/view_expenditure_item.png"
+                        src="/img/sponsorship/view_sponsorship.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -212,13 +208,12 @@ export const IncomeActivity = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 5.1: Approve Income Activity</h3>
+                  <h3>Step 5.1: Approve Sponsorship</h3>
 
                   <ul>
                     <li>
                       <span>
-                        Click the <b>Approve</b> button approve an income
-                        activity.
+                        Click the <b>Approve</b> button approve sponsorship
                       </span>
                     </li>
                   </ul>
@@ -228,7 +223,7 @@ export const IncomeActivity = () => {
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/income/approve.png"
+                        src="/img/sponsorship/approve.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -244,13 +239,12 @@ export const IncomeActivity = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 5.2: Decline Income Activity</h3>
+                  <h3>Step 5.2: Decline Sponsorship</h3>
 
                   <ul>
                     <li>
                       <span>
-                        Click the <b>Decline</b> button decline an income
-                        activity.
+                        Click the <b>Decline</b> button decline sponsorship.
                       </span>
                     </li>
                   </ul>
@@ -260,7 +254,7 @@ export const IncomeActivity = () => {
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/income/decline.png"
+                        src="/img/sponsorship/decline.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -277,9 +271,9 @@ export const IncomeActivity = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Update Income Active(Optional)</h3>
+                  <h3>Update Sponsorship(Optional)</h3>
                   <p className="fst-italic">
-                    Tip1: Once an income has been approve by either the{" "}
+                    Tip1: Once an sponsorship has been approve by either the{" "}
                     <b>Treasurer</b>, <b>President</b> or <b>Admin</b> it can
                     not be edited again.
                   </p>
@@ -287,7 +281,7 @@ export const IncomeActivity = () => {
                     <li>
                       <span>
                         Click on the menu icon to <b>View</b>, <b>Edit</b> or{" "}
-                        <b>Delete</b> an income activity
+                        <b>Delete</b> a sponsorship record
                       </span>
                     </li>
                   </ul>
@@ -297,7 +291,7 @@ export const IncomeActivity = () => {
                   <div className="portfolio-card">
                     <div className="">
                       <img
-                        src="/img/expenditure/view_expenditure_item.png"
+                        src="/img/sponsorship/update_sponsorship_menu.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
