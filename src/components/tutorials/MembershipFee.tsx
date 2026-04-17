@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 
-export const FinancialYearSetup = () => {
+export const MembershipFee = () => {
   return (
     <Fragment>
       <section
@@ -8,14 +8,9 @@ export const FinancialYearSetup = () => {
         className="services section light-background tutorials"
       >
         <div className="container section-title" data-aos="fade-up">
-          <h2>Financial Year Setup</h2>
+          <h2>Membership Fee</h2>
           <p>
-            To start recording your financial transactions in QuickRecords, you
-            first need to set up your financial year, which will help you
-            organize and manage your financial data effectively. Hint: A
-            financial year is created for you by default when you create your
-            account, but you can always create additional financial years to
-            manage different periods of your financial data.
+            To manage your organization's membership in QuickRecords, you can set up registration amount. This feature allows you to easily monitor and manage membership enrollment.
           </p>
         </div>
 
@@ -67,8 +62,8 @@ export const FinancialYearSetup = () => {
                   </div>
                 </div>
               </div>
-              
-              <hr />
+
+               <hr />
               <div
                 className="row g-4 isotope-container"
                 data-aos="fade-up"
@@ -90,7 +85,7 @@ export const FinancialYearSetup = () => {
                   <div className="portfolio-card">
                     <div className="portfolio-image">
                       <img
-                        src="/img/session/setting.png"
+                        src="/img/registration_fee/setting.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -107,17 +102,19 @@ export const FinancialYearSetup = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 3: Add Session</h3>
+                  <h3>Step 3: Registration Fee</h3>
                   <p className="fst-italic">
-                    The <b>Add</b> button will be disabled if an active session
-                    already exists. You can only have one active session at a
-                    time.
+                    The <b>Add</b> button will be disabled if an active registration fee already exists. You can only have one active registration fee at a time.
                   </p>
                   <ul>
                     <li>
                       <span>
-                        Click on the <b>Add</b> button to create a new financial
-                        year.
+                        Click on the <b>Add</b> button to create a new registration fee.
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        Click on the <b>Pencil</b> icon to eidt a registration fee.
                       </span>
                     </li>
                   </ul>
@@ -127,7 +124,7 @@ export const FinancialYearSetup = () => {
                   <div className="portfolio-card">
                     <div className="portfolio-image">
                       <img
-                        src="/img/session/add_button.png"
+                        src="/img/registration_fee/add_button.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
@@ -144,11 +141,11 @@ export const FinancialYearSetup = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Step 4: Provide Session Information</h3>
+                  <h3>Step 4: Provide Registration Fee Information</h3>
                   <ul>
                     <li>
                       <span>
-                        Fill in the current year in the input field. This will be the name of your financial year session.
+                        Fill in all the required fields
                       </span>
                     </li>
                     <li>
@@ -163,7 +160,7 @@ export const FinancialYearSetup = () => {
                   <div className="portfolio-card">
                     <div className="portfolio-image">
                       <img
-                        src="/img/session/add_session_form.png"
+                        src="/img/registration_fee/registration_fee_form.png"
                         className="img-fluid"
                         alt=""
                         loading="lazy"
