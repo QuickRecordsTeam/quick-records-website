@@ -19,6 +19,7 @@ import { ExpenditureItems } from "./tutorials/ExpenditureItems";
 import { ExpenditureItemDetails } from "./tutorials/ExpenditureItemDetails";
 import { IncomeActivity } from "./tutorials/IncomeActivity";
 import { SponsorshipManagement } from "./tutorials/Sponsorship";
+import { SavingManagement } from "./tutorials/SavingManagement";
 
 export const Tutorials = () => {
   return (
@@ -29,7 +30,7 @@ export const Tutorials = () => {
           <Route path={WEBSITE_ROUTES.TUTORIALS} element={<TutorialList />} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_INCOME_MANAGEMENT} element={<IncomeActivity />}/>
           <Route path={WEBSITE_ROUTES.TUTORIAL_LOGIN} element={<Login />} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_SAVINGS_MANAGEMENT} />
+          <Route path={WEBSITE_ROUTES.TUTORIAL_SAVINGS_MANAGEMENT} element={<SavingManagement />} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_SPONSHOR_MANAGEMENT} element={<SponsorshipManagement />}/>
           <Route path={WEBSITE_ROUTES.TUTORIAL_REPORT_MANAGEMENT} />
           <Route path={WEBSITE_ROUTES.TUTORIAL_BALANCE_SHEET} />
