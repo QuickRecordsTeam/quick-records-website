@@ -87,6 +87,39 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.btn-outline-custom {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: transparent; /* Start transparent */
+  color: #063275;                /* Text matches the border */
+  border: 1px solid #063275;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  
+  /* Smooth transition for the "fill" effect */
+  transition: all 0.15s ease-in-out;
+}
+
+/* 2. The Hover State (The Fill) */
+.btn-outline-custom:hover {
+  color: #fff;                   /* Text turns white */
+  background-color: #063275;     /* Background fills with color */
+  border-color: #063275;
+  text-decoration: none;
+}
+
+/* 3. The Active State (Slightly darker when clicked) */
+.btn-outline-custom:active {
+  background-color: #063275;
+  border-color: #063275;
+}
+
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
