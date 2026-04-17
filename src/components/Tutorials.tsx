@@ -13,6 +13,7 @@ import { MemberManagement } from "./tutorials/MemberManagement";
 import { InviteCollaborators } from "./tutorials/InviteCollaborators";
 import { RegisterMember } from "./tutorials/RegisterMember";
 import { PaymentCategories } from "./tutorials/PaymentCategories";
+import { PaymentItems } from "./tutorials/PaymentItems";
 
 export const Tutorials = () => {
   return (
@@ -52,7 +53,7 @@ export const Tutorials = () => {
             element={<MemberManagement />}
           />
           <Route path={WEBSITE_ROUTES.TUTORIAL_PAYMENT_CATEGORY_MANAGEMENT} element={<PaymentCategories />} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_PAYMENT_ITEM_MANAGEMENT} />
+          <Route path={WEBSITE_ROUTES.TUTORIAL_PAYMENT_ITEM_MANAGEMENT} element={<PaymentItems />} />
         </Routes>
         <Footer />
       </BrowserRouter>
