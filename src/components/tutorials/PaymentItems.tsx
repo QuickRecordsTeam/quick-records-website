@@ -202,7 +202,7 @@ export const PaymentItems = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Update Payment Item (Optional)</h3>
+                  <h3>Update Payment Item (optional)</h3>
                   <ul>
                     <li>
                       <span>

@@ -13,16 +13,33 @@ export const TutorialList = () => {
         id="features"
         className="services section light-background tutorials"
       >
-        <div className="container section-title" data-aos="fade-up">
+        <div className="container section-title" data-aos-delay="100">
           <h2>Tutorials</h2>
           <p>
-            Learn how to make the most of QuickRecords with our comprehensive
-            tutorials. <br />
-            From setting up your account to managing your finances effectively,
-            our tutorials cover everything you need to know to get started and
-            make the most of QuickRecords. <br />
-            Dive in and discover how to streamline your financial management
-            today!
+            <b>Collaborative Management</b> <br/>
+             QuickRecords is designed for seamless teamwork between the{" "}
+            <b>Admin</b>, <b>President</b>, <b>Financial Secretary</b>, and{" "}
+            <b>Treasurer</b>
+
+             {/* <ul>
+              <li>
+                <b>Organisation Setup & Onboarding: </b> The Admin configures
+                the software package specifically for the organization and
+                invites the rest of the leadership team to collaborate.
+              </li>
+              <li>
+                <b>Recording Transactions: </b> The Admin, or President, or
+                Financial Secretary work together to record daily financial
+                activities and transactions.
+              
+              </li>
+              <li>
+                <b>Approval Workflow: </b> Once funds are physically handed over
+                to the Treasurer, or President or Admin can officially approve
+                the transaction within the system to ensure full accountability.{" "}
+                <br />
+              </li>
+            </ul> */}
           </p>
         </div>
 
@@ -55,7 +72,7 @@ export const TutorialList = () => {
                 onClick={handleAction(WEBSITE_ROUTES.TUTORIAL_LOGIN)}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-box-arrow-in-right"></i>
                 </div>
                 <div className="service-content">
                   <h3>Login</h3>
@@ -110,7 +127,7 @@ export const TutorialList = () => {
                 onClick={handleAction(WEBSITE_ROUTES.TUTORIAL_ROLE_MANAGEMENT)}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-person-bounding-box"></i>
                 </div>
                 <div className="service-content">
                   <h3>Role Management</h3>
@@ -166,7 +183,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-person-badge"></i>
                 </div>
                 <div className="service-content">
                   <h3>Member Registration</h3>
@@ -186,7 +203,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-wallet"></i>
                 </div>
                 <div className="service-content">
                   <h3>Payment Categories</h3>
@@ -206,7 +223,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-wallet"></i>
                 </div>
                 <div className="service-content">
                   <h3>Payment Items</h3>
@@ -226,7 +243,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-cash"></i>
                 </div>
                 <div className="service-content">
                   <h3>Expenditure Categories</h3>
@@ -246,7 +263,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-cash"></i>
                 </div>
                 <div className="service-content">
                   <h3>Expenditure Items</h3>
@@ -266,7 +283,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-cash"></i>
                 </div>
                 <div className="service-content">
                   <h3>Expenditure Items Details</h3>
@@ -286,7 +303,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-cash"></i>
                 </div>
                 <div className="service-content">
                   <h3>Income Activities</h3>
@@ -306,14 +323,13 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-piggy-bank"></i>
                 </div>
                 <div className="service-content">
                   <h3>Savings</h3>
                 </div>
               </div>
             </div>
-
 
             <div
               className="col-md-4"
@@ -327,7 +343,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-cash"></i>
                 </div>
                 <div className="service-content">
                   <h3>Sponsorship Management</h3>
@@ -347,7 +363,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-cash-coin"></i>
                 </div>
                 <div className="service-content">
                   <h3>Contribution Management</h3>
@@ -367,7 +383,7 @@ export const TutorialList = () => {
                 )}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-file-earmark-bar-graph"></i>
                 </div>
                 <div className="service-content">
                   <h3>Report Generation</h3>
@@ -385,7 +401,7 @@ export const TutorialList = () => {
                 onClick={handleAction(WEBSITE_ROUTES.TUTORIAL_BALANCE_SHEET)}
               >
                 <div className="service-icon">
-                  <i className="bi bi-people"></i>
+                  <i className="bi bi-file-earmark-bar-graph"></i>
                 </div>
                 <div className="service-content">
                   <h3>Balance Sheet</h3>

@@ -21,6 +21,8 @@ import { IncomeActivity } from "./tutorials/IncomeActivity";
 import { SponsorshipManagement } from "./tutorials/Sponsorship";
 import { SavingManagement } from "./tutorials/SavingManagement";
 import { ContributionManagement } from "./tutorials/ContributionManagement";
+import { BalanceSheet } from "./tutorials/BalanceSheet";
+import { ReportGeneration } from "./tutorials/Reports";
 
 export const Tutorials = () => {
   return (
@@ -29,14 +31,35 @@ export const Tutorials = () => {
         <Header />
         <Routes>
           <Route path={WEBSITE_ROUTES.TUTORIALS} element={<TutorialList />} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_INCOME_MANAGEMENT} element={<IncomeActivity />}/>
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_INCOME_MANAGEMENT}
+            element={<IncomeActivity />}
+          />
           <Route path={WEBSITE_ROUTES.TUTORIAL_LOGIN} element={<Login />} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_SAVINGS_MANAGEMENT} element={<SavingManagement />} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_SPONSHOR_MANAGEMENT} element={<SponsorshipManagement />}/>
-          <Route path={WEBSITE_ROUTES.TUTORIAL_REPORT_MANAGEMENT} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_BALANCE_SHEET} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_CONTRIBUTION_MANAGEMENT} element={<ContributionManagement />} />
-          <Route path={WEBSITE_ROUTES.TUTORIAL_EXPENDITURE_ITEM_DETAIL_MANAGEMENT} element={<ExpenditureItemDetails />} />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_SAVINGS_MANAGEMENT}
+            element={<SavingManagement />}
+          />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_SPONSHOR_MANAGEMENT}
+            element={<SponsorshipManagement />}
+          />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_REPORT_MANAGEMENT}
+            element={<ReportGeneration />}
+          />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_BALANCE_SHEET}
+            element={<BalanceSheet />}
+          />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_CONTRIBUTION_MANAGEMENT}
+            element={<ContributionManagement />}
+          />
+          <Route
+            path={WEBSITE_ROUTES.TUTORIAL_EXPENDITURE_ITEM_DETAIL_MANAGEMENT}
+            element={<ExpenditureItemDetails />}
+          />
           <Route
             path={WEBSITE_ROUTES.TUTORIAL_EXPENDITURE_ITEM_MANAGEMENT}
             element={<ExpenditureItems />}

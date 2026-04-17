@@ -498,7 +498,7 @@ export const ContributionManagement = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Update Contribution(Optional)</h3>
+                  <h3>Update Contribution(optional)</h3>
                   <p className="fst-italic">
                     Tip1: Once a recorded contribution has been approve by
                     either the <b>Treasurer</b>, <b>President</b> or{" "}

@@ -10,9 +10,9 @@ export const MembershipFee = () => {
         <div className="container section-title" data-aos="fade-up">
           <h2>Membership Fee</h2>
           <p>
-            To manage your organization's membership in QuickRecords, you can
-            set up registration amount. This feature allows you to easily
-            monitor and manage membership enrollment.
+            In QuickRecords, setting a Registration Amount is the first step
+            toward professionalizing your organization's onboarding process.
+            This feature streamlines how you track and manage member enrollment.
           </p>
         </div>
 

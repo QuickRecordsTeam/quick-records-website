@@ -277,7 +277,7 @@ export const IncomeActivity = () => {
                 data-aos-delay="300"
               >
                 <div className="col-lg-6 col-md-6 portfolio-item isotope-item filter-web">
-                  <h3>Update Income Active(Optional)</h3>
+                  <h3>Update Income Active(optional)</h3>
                   <p className="fst-italic">
                     Tip1: Once an income has been approve by either the{" "}
                     <b>Treasurer</b>, <b>President</b> or <b>Admin</b> it can
