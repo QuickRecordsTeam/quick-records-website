@@ -130,7 +130,7 @@ export const TutorialList = () => {
                   <i className="bi bi-people"></i>
                 </div>
                 <div className="service-content">
-                  <h3>User Management</h3>
+                  <h3>Member Management</h3>
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@ export const TutorialList = () => {
                   <i className="bi bi-people"></i>
                 </div>
                 <div className="service-content">
-                  <h3>User Registration</h3>
+                  <h3>Member Registration</h3>
                 </div>
               </div>
             </div>
