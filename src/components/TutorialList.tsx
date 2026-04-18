@@ -1,0 +1,416 @@
+import { Fragment } from "react";
+import { WEBSITE_ROUTES } from "../constants/navurl";
+import { useNavigate } from "react-router-dom";
+
+export const TutorialList = () => {
+  const navigate = useNavigate();
+  const handleAction = (url: string) => () => {
+    navigate(url);
+  };
+  return (
+    <Fragment>
+      <section
+        id="features"
+        className="services section light-background tutorials"
+      >
+        <div className="container section-title" data-aos-delay="100">
+          <h2>Tutorials</h2>
+          <p>
+            <b>Collaborative Management</b> <br/>
+             QuickRecords is designed for seamless teamwork between the{" "}
+            <b>Admin</b>, <b>President</b>, <b>Financial Secretary</b>, and{" "}
+            <b>Treasurer</b>
+
+             {/* <ul>
+              <li>
+                <b>Organisation Setup & Onboarding: </b> The Admin configures
+                the software package specifically for the organization and
+                invites the rest of the leadership team to collaborate.
+              </li>
+              <li>
+                <b>Recording Transactions: </b> The Admin, or President, or
+                Financial Secretary work together to record daily financial
+                activities and transactions.
+              
+              </li>
+              <li>
+                <b>Approval Workflow: </b> Once funds are physically handed over
+                to the Treasurer, or President or Admin can officially approve
+                the transaction within the system to ensure full accountability.{" "}
+                <br />
+              </li>
+            </ul> */}
+          </p>
+        </div>
+
+        <div className="container" data-aos="fade-up" data-aos-delay="100">
+          <div className="row justify-content-center g-5">
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(WEBSITE_ROUTES.TUTORIAL_ACCOUNT_SETUP)}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-people"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Organisation Setup</h3>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(WEBSITE_ROUTES.TUTORIAL_LOGIN)}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-box-arrow-in-right"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Login</h3>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_CURRENT_YEAR_SETUP,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-people"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Financial Year Setup</h3>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_MEMBERSHIP_FEE_SETUP,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-people"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Membership Fee</h3>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(WEBSITE_ROUTES.TUTORIAL_ROLE_MANAGEMENT)}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-person-bounding-box"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Role Management</h3>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(WEBSITE_ROUTES.TUTORIAL_USER_MANAGEMENT)}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-people"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Member Management</h3>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_INVITE_COLLABORATOR,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-people"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Invite Collaborators</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_USER_REGISTRATION,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-person-badge"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Member Registration</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_PAYMENT_CATEGORY_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-wallet"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Payment Categories</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_PAYMENT_ITEM_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-wallet"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Payment Items</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_EXPENDITURE_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-cash"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Expenditure Categories</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_EXPENDITURE_ITEM_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-cash"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Expenditure Items</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_EXPENDITURE_ITEM_DETAIL_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-cash"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Expenditure Items Details</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_INCOME_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-cash"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Income Activities</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_SAVINGS_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-piggy-bank"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Savings</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_SPONSHOR_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-cash"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Sponsorship Management</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_CONTRIBUTION_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-cash-coin"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Contribution Management</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(
+                  WEBSITE_ROUTES.TUTORIAL_REPORT_MANAGEMENT,
+                )}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-file-earmark-bar-graph"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Report Generation</h3>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-md-4"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <div
+                className="service-item tutorial-item"
+                onClick={handleAction(WEBSITE_ROUTES.TUTORIAL_BALANCE_SHEET)}
+              >
+                <div className="service-icon">
+                  <i className="bi bi-file-earmark-bar-graph"></i>
+                </div>
+                <div className="service-content">
+                  <h3>Balance Sheet</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </Fragment>
+  );
+};

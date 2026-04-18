@@ -6,7 +6,10 @@ const HowItWorks = () => {
       <section id="how-we-work" className="how-we-work section">
         <div className="container section-title" data-aos="fade-up">
           <h2>How It Works</h2>
-          <p>A Streamlined workflow designed with you in mind.</p>
+          <p>Maximize the efficiency of your organization with our comprehensive
+            QuickRecords tutorials. Whether you are a first-time user or a lead
+            collaborator, out tutorial guides covers everything from initial setup to
+            advanced financial oversight.</p>
         </div>
 
         <div className="container" data-aos="fade-up" data-aos-delay="100">
