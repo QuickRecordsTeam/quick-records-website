@@ -17,27 +17,27 @@ const Header = () => {
     {
       id: 1,
       title: "Home",
-      href: "http://localhost:5173/#about",
+      href: "#about",
     },
     {
       id: 2,
       title: "Features",
-      href: "http://localhost:5173/#features",
+      href: "#features",
     },
     {
       id: 3,
       title: "FAQs",
-      href: "http://localhost:5173/#faq",
+      href: "#faq",
     },
     {
       id: 4,
       title: "Contact",
-      href: "http://localhost:5173/#contact",
+      href: "#contact",
     },
     {
       id: 5,
       title: "Live Demo",
-      href: "http://localhost:5173/#contact",
+      href: "#contact",
     },
     {
       id: 6,
