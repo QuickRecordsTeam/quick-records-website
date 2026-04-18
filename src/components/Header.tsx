@@ -1,4 +1,5 @@
 import { Fragment, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 interface NavLink {
   id: number;
   title: string;
@@ -12,8 +13,7 @@ const Header = () => {
     href: "#about",
   });
   const oboardingUrl = import.meta.env.VITE_ON_BOARDING_URL;
- 
-  
+
   const loginUrl = import.meta.env.VITE_LOGIN_URL;
   const [navLinks] = useState<NavLink[]>([
     {
@@ -45,11 +45,6 @@ const Header = () => {
       id: 5,
       title: "Live Demo",
       href: `/#contact`,
-    },
-    {
-      id: 6,
-      title: "Tutorials",
-      href: "/tutorials",
     },
   ]);
 
@@ -105,6 +100,7 @@ const Header = () => {
                 </li>
               ))}
             </ul>
+
             <i
               className="mobile-nav-toggle d-xl-none bi bi-list"
               data-bs-toggle="offcanvas"
@@ -114,7 +110,7 @@ const Header = () => {
               ref={navRef}
             ></i>
           </nav>
-
+          <Link to="/tutorials">Tutorials</Link>
           <a
             href={loginUrl}
             className="btn  btn-outline-custom"
