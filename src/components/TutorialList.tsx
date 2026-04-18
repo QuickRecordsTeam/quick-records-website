@@ -16,30 +16,29 @@ export const TutorialList = () => {
         <div className="container section-title" data-aos-delay="100">
           <h2>Tutorials</h2>
           <p>
-            <b>Collaborative Management</b> <br/>
-             QuickRecords is designed for seamless teamwork between the{" "}
+            <b>Collaborative Management</b> <br />
+            QuickRecords is designed for seamless teamwork between the{" "}
             <b>Admin</b>, <b>President</b>, <b>Financial Secretary</b>, and{" "}
-            <b>Treasurer</b>
-
-             {/* <ul>
-              <li>
-                <b>Organisation Setup & Onboarding: </b> The Admin configures
-                the software package specifically for the organization and
-                invites the rest of the leadership team to collaborate.
-              </li>
-              <li>
-                <b>Recording Transactions: </b> The Admin, or President, or
-                Financial Secretary work together to record daily financial
-                activities and transactions.
-              
-              </li>
-              <li>
-                <b>Approval Workflow: </b> Once funds are physically handed over
-                to the Treasurer, or President or Admin can officially approve
-                the transaction within the system to ensure full accountability.{" "}
-                <br />
-              </li>
-            </ul> */}
+            <b>Treasurer.</b> <br />
+            <br />
+            <b>The workflow consist of three steps</b>
+            <br />
+            <p>
+              <b>Organisation Setup & Onboarding: </b> The Admin configures the
+              software package specifically for the organization and invites the
+              rest of the leadership team to collaborate.
+            </p>
+            <p>
+              <b>Recording Transactions: </b> The Admin, or President, or
+              Financial Secretary work together to record daily financial
+              activities and transactions.
+            </p>
+            <p>
+              <b>Approval Workflow: </b> Once funds are physically handed over
+              to the Treasurer, He or President or Admin can officially approve the
+              transaction within the system to ensure full accountability.{" "}
+              <br />
+            </p>
           </p>
         </div>
 
