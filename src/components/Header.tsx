@@ -3,7 +3,7 @@ interface NavLink {
   id: number;
   title: string;
   href: string;
-  name?: string;  
+  name?: string;
 }
 const Header = () => {
   const [currentActiveLink, setCurrentActiveLink] = useState<NavLink>({
@@ -12,38 +12,45 @@ const Header = () => {
     href: "#about",
   });
   const oboardingUrl = import.meta.env.VITE_ON_BOARDING_URL;
-  const loginUrl= import.meta.env.VITE_LOGIN_URL;
+ 
+  
+  const loginUrl = import.meta.env.VITE_LOGIN_URL;
   const [navLinks] = useState<NavLink[]>([
     {
       id: 1,
       title: "Home",
-      href: "#about",
+      href: `/#about`,
     },
     {
       id: 2,
       title: "Features",
-      href: "#features",
+      href: `/#features`,
+    },
+    {
+      id: 2,
+      title: "How it Works",
+      href: `/#how-we-work`,
     },
     {
       id: 3,
       title: "FAQs",
-      href: "#faq",
+      href: `/#faq`,
     },
     {
       id: 4,
       title: "Contact",
-      href: "#contact",
+      href: `/#contact`,
     },
     {
       id: 5,
       title: "Live Demo",
-      href: "#contact",
+      href: `/#contact`,
     },
     {
       id: 6,
       title: "Tutorials",
-      href: import.meta.env.VITE_TUTORIALS_URL,
-    }
+      href: "/tutorials",
+    },
   ]);
 
   const navRef = useRef<HTMLAnchorElement>(null);
@@ -108,9 +115,20 @@ const Header = () => {
             ></i>
           </nav>
 
-           <a href={loginUrl} className="btn  btn-outline-custom" target="_blank">Log In</a>
+          <a
+            href={loginUrl}
+            className="btn  btn-outline-custom"
+            target="_blank"
+          >
+            Log In
+          </a>
 
-          <a className="btn-getstarted" href={oboardingUrl} ref={demoBtnRef} target="_blank">
+          <a
+            className="btn-getstarted"
+            href={oboardingUrl}
+            ref={demoBtnRef}
+            target="_blank"
+          >
             Get Started
           </a>
         </div>

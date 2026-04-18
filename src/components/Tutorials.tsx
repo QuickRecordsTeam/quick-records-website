@@ -3,7 +3,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { WEBSITE_ROUTES } from "../constants/navurl";
 import { TutorialList } from "./TutorialList";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { OrganisationSetup } from "./tutorials/OrganisationSetup";
 import { Login } from "./tutorials/Login";
 import { FinancialYearSetup } from "./tutorials/FinancialYearSetup";
@@ -27,10 +27,10 @@ import { ReportGeneration } from "./tutorials/Reports";
 export const Tutorials = () => {
   return (
     <Fragment>
-      <BrowserRouter>
         <Header />
         <Routes>
-          <Route path={WEBSITE_ROUTES.TUTORIALS} element={<TutorialList />} />
+          <Route index 
+           element={<TutorialList />} />
           <Route
             path={WEBSITE_ROUTES.TUTORIAL_INCOME_MANAGEMENT}
             element={<IncomeActivity />}
@@ -107,7 +107,6 @@ export const Tutorials = () => {
           />
         </Routes>
         <Footer />
-      </BrowserRouter>
     </Fragment>
   );
 };
