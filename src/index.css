@@ -431,6 +431,9 @@ h6 {
   .btn-getstarted {
     display: none;
   }
+  .btn-outline-custom {
+    display: none;
+  }
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;

@@ -99,6 +99,7 @@ const Header = () => {
                   </a>
                 </li>
               ))}
+              <Link to="/tutorials">Tutorials</Link>
             </ul>
 
             <i
@@ -110,7 +111,7 @@ const Header = () => {
               ref={navRef}
             ></i>
           </nav>
-          <Link to="/tutorials">Tutorials</Link>
+
           <a
             href={loginUrl}
             className="btn  btn-outline-custom"
@@ -172,6 +173,15 @@ const Header = () => {
                     </a>
                   </li>
                 ))}
+
+                <Link to="/tutorials">Tutorials</Link>
+                <a
+                  href={loginUrl}
+                  className="btn  btn-outline-custom"
+                  target="_blank"
+                >
+                  Log In
+                </a>
               </ul>
             </nav>
           </div>
