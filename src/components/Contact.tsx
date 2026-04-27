@@ -80,7 +80,7 @@ const Contact = () => {
                   <i className="bi bi-geo-alt"></i>
                 </div>
                 <h3>Our Address</h3>
-                <p>P.O. Box 280 Buea, Southwest Region, Cameroon</p>
+                <p>Buea, Southwest Region, Cameroon</p>
               </div>
             </div>
 
@@ -91,7 +91,7 @@ const Contact = () => {
                 </div>
                 <h3>Contact Number</h3>
                 <p>
-                  Mobile: +237 673-660-071
+                  Mobile: +237 673-660-071 / +237687932648
                   <br />
                   Email: quickrec93@gmail.com
                 </p>
