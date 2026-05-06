@@ -1,7 +1,6 @@
-import React from "react";
-
+ 
 export const VideoModal = () => {
-  const videoSrc = "https://www.youtube.com/embed/BShN5EAhQ10";
+  const videoSrc = "/videos/demo.mp4";
 
   return (
     <div>
