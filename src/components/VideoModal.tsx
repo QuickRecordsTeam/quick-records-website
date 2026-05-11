@@ -1,6 +1,6 @@
  
 export const VideoModal = () => {
-  const videoSrc = "/videos/demo.mp4";
+  const videoSrc = "/videos/contribution_feature_demo.mp4";
 
   return (
     <div>
