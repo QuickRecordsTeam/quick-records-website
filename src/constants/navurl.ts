@@ -8,7 +8,7 @@ export const WEBSITE_ROUTES = Object.freeze({
   TUTORIALS: TUTORIALS_BASE_URL,
   SIGN_IN: import.meta.env.VITE_LOGIN_URL,
   LIVE_DEMO: `${WEBSITE_BASE_URL}/#contact`,
-  TUTORIAL_ACCOUNT_SETUP: `/account-setup`,
+  TUTORIAL_ACCOUNT_SETUP: `account-setup`,
   TUTORIAL_CURRENT_YEAR_SETUP: `configure-current-year`,
   TUTORIAL_MEMBERSHIP_FEE_SETUP: `membership-fee-setup`,
   TUTORIAL_ORGANISATION_MANAGEMENT: `organisation-management`,
