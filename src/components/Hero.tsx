@@ -26,15 +26,15 @@ const Hero = () => {
                 streamlines record management of finances, allowing you to focus
                 on maximizing productivity.
               </p>
-              <div className="cta-wrapper">
+              {/* <div className="cta-wrapper">
                 <a
-                  href={oboardingUrl}
+                  href='http://localhost:5173/#contact'
                   className="btn btn-primary"
                   target="_blank"
                 >
                   Get Started
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div className="col-lg-6">
