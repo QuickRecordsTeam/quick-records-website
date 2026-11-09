@@ -69,15 +69,15 @@ const CallToAction = () => {
                   </div>
                 </div>
 
-                <div className="cta-action mt-5">
+                {/* <div className="cta-action mt-5">
                   <a
-                    href={createAccountUrl}
+                    href='#contact'
                     className="btn btn-primary btn-lg me-3"
                     target="_blank"
                   >
                     Create Account
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

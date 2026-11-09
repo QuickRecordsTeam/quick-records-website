@@ -111,23 +111,6 @@ const Header = () => {
               ref={navRef}
             ></i>
           </nav>
-
-          <a
-            href={loginUrl}
-            className="btn  btn-outline-custom"
-            target="_blank"
-          >
-            Log In
-          </a>
-
-          <a
-            className="btn-getstarted"
-            href={oboardingUrl}
-            ref={demoBtnRef}
-            target="_blank"
-          >
-            Get Started
-          </a>
         </div>
 
         <div
